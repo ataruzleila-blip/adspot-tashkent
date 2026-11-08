@@ -1,0 +1,2 @@
+# AdSpot Tashkent Python Backend
+# Uses Python 3 standard library (http.server, sqlite3, json, math) — 0 external packages required!

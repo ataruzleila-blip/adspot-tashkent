@@ -1,0 +1,400 @@
+/* ==========================================================================
+   AdSpot Tashkent — Harmonious Sapphire Blue & Warm Cashmere Beige System
+   Medium-Deep Sapphire (#284B63) + Oxford Slate (#1B3249) + Warm Beige (#EBE2D3 / #D4B895)
+   ========================================================================== */
+
+:root {
+  --beige-page: #F6F2EA;
+  --beige-card: #EBE2D3;
+  --beige-soft: #F3EDE2;
+  --beige-accent: #C8AD8D;
+  --beige-gold: #D4B895;
+  --sapphire-primary: #284B63;
+  --sapphire-hover: #1E3B4F;
+  --oxford-deep: #1B3249;
+  --steel-accent: #5C829E;
+  --text-navy: #1B3249;
+  --text-muted: #5A6B7C;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--beige-page);
+  color: var(--text-navy);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ==========================================================================
+   1. HARMONIOUS SLATE-BLUE TO WARM BEIGE HERO STAGE + GIANT WATERMARK
+   ========================================================================== */
+.hero-sky-stage {
+  background: linear-gradient(180deg, #8EA7BE 0%, #B8C9D9 38%, #DFD6C7 74%, #F6F2EA 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Giant Translucent Glass Watermark Typography ("ADSPOT") */
+.hero-watermark-text {
+  font-size: clamp(4.8rem, 15.5vw, 13.5rem);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 0.88;
+  color: transparent;
+  background: linear-gradient(180deg, rgba(251, 249, 245, 0.88) 0%, rgba(251, 249, 245, 0.22) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Curved Warm Alabaster Arch at Bottom of Hero */
+.hero-bottom-curve {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background: var(--beige-page);
+  clip-path: ellipse(58% 100% at 50% 100%);
+  pointer-events: none;
+}
+
+/* Feature Pills Row Below Curved Arch (Warm Beige + Sapphire Check) */
+.guarrent-feature-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  background-color: #EBE2D3;
+  border: 1px solid rgba(200, 173, 141, 0.45);
+  color: #1B3249;
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(27, 50, 73, 0.04);
+}
+
+/* ==========================================================================
+   2. BENTO CARDS & BUTTONS (Sapphire Blue + Warm Beige Harmony)
+   ========================================================================== */
+.btn-cobalt-pill {
+  background-color: var(--sapphire-primary);
+  color: #FBF9F5;
+  border: 1px solid rgba(212, 184, 149, 0.35);
+  border-radius: 9999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 10px 24px -6px rgba(27, 50, 73, 0.32);
+}
+
+.btn-cobalt-pill:hover {
+  background-color: var(--sapphire-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -6px rgba(27, 50, 73, 0.42);
+}
+
+.btn-white-pill {
+  background-color: #FBF9F5;
+  color: var(--text-navy);
+  border: 1px solid rgba(200, 173, 141, 0.55);
+  border-radius: 9999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.25s ease;
+  box-shadow: 0 8px 20px -6px rgba(27, 50, 73, 0.07);
+}
+
+.btn-white-pill:hover {
+  background-color: #EBE2D3;
+  border-color: var(--sapphire-primary);
+  color: var(--sapphire-primary);
+  transform: translateY(-1px);
+}
+
+/* Warm Cashmere Beige Bento Card */
+.bento-ice-card {
+  background: linear-gradient(145deg, #EBE2D3 0%, #F4EFE6 100%);
+  border: 1px solid rgba(200, 173, 141, 0.45);
+  border-radius: 26px;
+  box-shadow: 0 14px 36px -12px rgba(27, 50, 73, 0.08);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.bento-ice-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 20px 44px -12px rgba(40, 75, 99, 0.15);
+}
+
+/* Warm Ivory Surface Card */
+.bento-white-card {
+  background: #FBF9F5;
+  border: 1px solid rgba(200, 173, 141, 0.40);
+  border-radius: 26px;
+  box-shadow: 0 14px 36px -12px rgba(27, 50, 73, 0.06);
+  transition: transform 0.28s ease, border-color 0.28s ease;
+}
+
+.bento-white-card:hover {
+  border-color: var(--sapphire-primary);
+}
+
+/* Deep Oxford & Sapphire Banner with Warm Beige Highlights */
+.bento-navy-banner {
+  background: linear-gradient(135deg, #1B3249 0%, #284B63 60%, #1F3A54 100%);
+  color: #FBF9F5;
+  border: 1px solid rgba(212, 184, 149, 0.25);
+  border-radius: 28px;
+  box-shadow: 0 24px 50px -15px rgba(27, 50, 73, 0.35);
+}
+
+/* Sapphire & Warm Sand Art Card */
+.bento-cobalt-art {
+  background: linear-gradient(155deg, #1B3249 0%, #284B63 58%, #8C7355 100%);
+  color: #FBF9F5;
+  border-radius: 26px;
+  box-shadow: 0 20px 44px -12px rgba(40, 75, 99, 0.30);
+}
+
+/* Frosted Warm Cream & Beige Glass Card */
+.frosted-sky-card {
+  background: rgba(251, 249, 245, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(235, 226, 211, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 18px 40px -10px rgba(27, 50, 73, 0.13);
+}
+
+/* ==========================================================================
+   3. CUSTOM ANIMATED VECTOR SVG ICONS (No AI Emojis!)
+   ========================================================================== */
+@keyframes iconRadarPulse {
+  0% { transform: scale(0.85); opacity: 0.9; }
+  75% { transform: scale(1.75); opacity: 0; }
+  100% { transform: scale(1.75); opacity: 0; }
+}
+
+@keyframes iconFloatY {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-3.5px); }
+}
+
+@keyframes iconSpinSlow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes iconWaveScan {
+  0%, 100% { stroke-dashoffset: 0; }
+  50% { stroke-dashoffset: 12; }
+}
+
+.anim-radar-ring {
+  animation: iconRadarPulse 2.1s cubic-bezier(0.2, 0.8, 0.3, 1) infinite;
+  transform-origin: center;
+}
+
+.anim-float {
+  animation: iconFloatY 2.6s ease-in-out infinite;
+}
+
+.anim-spin-slow {
+  animation: iconSpinSlow 10s linear infinite;
+  transform-origin: center;
+}
+
+.anim-scan-line {
+  stroke-dasharray: 6 4;
+  animation: iconWaveScan 2.4s linear infinite;
+}
+
+.arrow-hover-shift {
+  transition: transform 0.25s ease;
+}
+
+button:hover .arrow-hover-shift,
+a:hover .arrow-hover-shift {
+  transform: translate(3px, -2px);
+}
+
+button:hover .arrow-right-shift,
+a:hover .arrow-right-shift {
+  transform: translateX(4px);
+}
+
+.arrow-right-shift {
+  transition: transform 0.25s ease;
+}
+
+/* ==========================================================================
+   4. ANIMATED 3D SPATIAL ROOM / TUNNEL OF SCREENS (Sapphire & Warm Beige)
+   ========================================================================== */
+.tunnel-scene-wrapper {
+  perspective: 820px;
+  position: relative;
+  width: 100%;
+  height: 490px;
+  overflow: hidden;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 22% 35%, rgba(212, 184, 149, 0.20) 0%, transparent 55%),
+    radial-gradient(circle at 78% 60%, rgba(92, 130, 158, 0.24) 0%, transparent 55%),
+    linear-gradient(160deg, #16293D 0%, #1B3249 52%, #284B63 100%);
+  border: 1px solid rgba(212, 184, 149, 0.30);
+  box-shadow: 0 28px 65px -15px rgba(27, 50, 73, 0.38);
+}
+
+.tunnel-3d-room {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.25s ease-out;
+}
+
+@keyframes tunnelFloatLeft {
+  0%, 100% { transform: translate3d(-340px, -10px, 60px) rotateY(46deg); }
+  50%      { transform: translate3d(-330px, -22px, 95px) rotateY(43deg); }
+}
+
+@keyframes tunnelFloatLeftDeep {
+  0%, 100% { transform: translate3d(-205px, -8px, -190px) rotateY(42deg) scale(0.72); }
+  50%      { transform: translate3d(-195px, 4px, -145px) rotateY(40deg) scale(0.76); }
+}
+
+@keyframes tunnelFloatRight {
+  0%, 100% { transform: translate3d(340px, -10px, 60px) rotateY(-46deg); }
+  50%      { transform: translate3d(330px, 6px, 95px) rotateY(-43deg); }
+}
+
+@keyframes tunnelFloatRightDeep {
+  0%, 100% { transform: translate3d(205px, -8px, -190px) rotateY(-42deg) scale(0.72); }
+  50%      { transform: translate3d(195px, -18px, -145px) rotateY(-40deg) scale(0.76); }
+}
+
+@keyframes tunnelFloatTop {
+  0%, 100% { transform: translate3d(0px, -210px, 40px) rotateX(-55deg); }
+  50%      { transform: translate3d(0px, -200px, 80px) rotateX(-52deg); }
+}
+
+@keyframes tunnelFloatTopDeep {
+  0%, 100% { transform: translate3d(0px, -115px, -210px) rotateX(-50deg) scale(0.65); }
+  50%      { transform: translate3d(0px, -110px, -165px) rotateX(-48deg) scale(0.70); }
+}
+
+@keyframes tunnelFloatBottom {
+  0%, 100% { transform: translate3d(0px, 215px, 20px) rotateX(58deg) scale(0.85); }
+  50%      { transform: translate3d(0px, 205px, 65px) rotateX(55deg) scale(0.90); }
+}
+
+.spatial-screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 20px 50px rgba(15, 28, 42, 0.50);
+  border: 1px solid rgba(235, 226, 211, 0.35);
+  transition: filter 0.3s ease, border-color 0.3s ease;
+}
+
+.spatial-screen:hover {
+  border-color: var(--beige-gold);
+  filter: brightness(1.06);
+}
+
+.screen-left-near {
+  width: 310px;
+  height: 210px;
+  margin-left: -155px;
+  margin-top: -105px;
+  animation: tunnelFloatLeft 7s ease-in-out infinite;
+}
+
+.screen-left-deep {
+  width: 240px;
+  height: 165px;
+  margin-left: -120px;
+  margin-top: -82px;
+  opacity: 0.85;
+  animation: tunnelFloatLeftDeep 8s ease-in-out infinite;
+}
+
+.screen-right-near {
+  width: 310px;
+  height: 210px;
+  margin-left: -155px;
+  margin-top: -105px;
+  animation: tunnelFloatRight 7.5s ease-in-out infinite;
+}
+
+.screen-right-deep {
+  width: 240px;
+  height: 165px;
+  margin-left: -120px;
+  margin-top: -82px;
+  opacity: 0.85;
+  animation: tunnelFloatRightDeep 8.5s ease-in-out infinite;
+}
+
+.screen-top-near {
+  width: 380px;
+  height: 170px;
+  margin-left: -190px;
+  margin-top: -85px;
+  animation: tunnelFloatTop 8s ease-in-out infinite;
+}
+
+.screen-top-deep {
+  width: 280px;
+  height: 120px;
+  margin-left: -140px;
+  margin-top: -60px;
+  opacity: 0.80;
+  animation: tunnelFloatTopDeep 9s ease-in-out infinite;
+}
+
+.screen-bottom-near {
+  width: 340px;
+  height: 150px;
+  margin-left: -170px;
+  margin-top: -75px;
+  opacity: 0.88;
+  animation: tunnelFloatBottom 7.8s ease-in-out infinite;
+}
+
+.tunnel-paused .spatial-screen {
+  animation-play-state: paused;
+}
+
+@keyframes warpPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+  100% { transform: scale(1); }
+}
+
+.tunnel-boost {
+  animation: warpPulse 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.map-pin-node {
+  cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: center bottom;
+}
+
+.map-pin-node:hover {
+  transform: scale(1.13) translateY(-2px);
+}
