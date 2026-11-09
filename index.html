@@ -78,160 +78,140 @@
       </div>
     </header>
 
-    <!-- Giant Translucent Watermark Title + 3-Column Floating Stage -->
-    <div class="max-w-7xl mx-auto px-6 pt-2 relative">
-      
-      <!-- Giant Glass Watermark "ADSPOT" -->
-      <div class="text-center hero-watermark-text select-none">
-        ADSPOT
-      </div>
-
-      <!-- 3-Column Interactive Showcase Overlapping the Watermark -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center -mt-8 sm:-mt-16 relative z-20">
+    <!-- AdQuick-Style Executive Hero: Instant Search Bar + Live Flagship ROI Preview -->
+    <div class="max-w-7xl mx-auto px-6 pt-8 relative z-20">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
-        <!-- Left Floating Card: Clickable to Open Map -->
-        <div class="lg:col-span-4 flex justify-center lg:justify-start">
-          <div onclick="document.getElementById('map-section').scrollIntoView({behavior:'smooth'})" class="frosted-sky-card p-6 max-w-xs w-full space-y-4 cursor-pointer hover:border-[#284B63] transition-all">
-            <div class="w-full h-36 rounded-2xl bg-gradient-to-b from-[#EBE2D3] to-[#F6F2EA] flex items-center justify-center relative overflow-hidden border border-[#C8AD8D]/40">
-              <svg width="150" height="115" viewBox="0 0 150 115" fill="none" class="anim-float">
-                <ellipse cx="75" cy="98" rx="46" ry="10" fill="rgba(40, 75, 99, 0.16)" class="anim-radar-ring"/>
-                <ellipse cx="75" cy="98" rx="30" ry="6" fill="rgba(200, 173, 141, 0.45)"/>
-                <polygon points="35,45 75,25 75,78 35,92" fill="#1B3249"/>
-                <polygon points="75,25 115,45 115,92 75,78" fill="#284B63"/>
-                <polygon points="42,48 72,33 72,64 42,75" fill="#D4B895" opacity="0.92"/>
-                <polygon points="78,33 108,48 108,75 78,64" fill="#F6F2EA" opacity="0.95"/>
-                <circle cx="75" cy="54" r="10" fill="#FBF9F5" stroke="#284B63" stroke-width="3"/>
-                <circle cx="75" cy="54" r="4" fill="#C8AD8D"/>
-              </svg>
+        <!-- Left Column (7 cols): Clear Value Prop + Instant Search Filter Bar + 4 KPI Cards -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1B3249] text-[#D4B895] text-[11px] font-extrabold tracking-wider uppercase shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span data-i18n="hero.adquickKicker">TASHKENT'S #1 SELF-SERVICE OOH MARKETPLACE · ADQUICK STANDARD</span>
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-[#1B3249] leading-[1.12]" data-i18n="hero.adquickHeadline">
+            Plan, Pre-Check &amp; Book Tashkent Billboards in 5 Minutes.
+          </h1>
+
+          <p class="text-sm sm:text-base text-[#1B3249]/80 leading-relaxed max-w-2xl font-medium" data-i18n="hero.adquickSub">
+            Compare 420+ verified 3×6m billboards, 4K digital LED screens, and bus shelters across Tashkent with transparent UZS pricing, 84,000+ daily traffic data, and 2-second Law ZRU-776 compliance.
+          </p>
+
+          <!-- AdQuick-Style Instant Search & Filter Bar -->
+          <div class="p-3 rounded-3xl bg-[#FBF9F5]/95 backdrop-blur-md border-2 border-[#C8AD8D] shadow-xl grid grid-cols-1 sm:grid-cols-12 gap-2.5 items-center">
+            <div class="sm:col-span-4 px-3 py-1.5 rounded-2xl bg-[#F3EDE2] border border-[#C8AD8D]/50">
+              <label class="block text-[10px] font-extrabold uppercase tracking-wider text-[#5A6B7C]" data-i18n="hero.searchDistLbl">1. Select District</label>
+              <select id="hero-filter-district" class="w-full bg-transparent text-xs font-extrabold text-[#1B3249] focus:outline-none mt-0.5 cursor-pointer">
+                <option value="all" data-i18n="mapSection.allDistricts">All Districts</option>
+                <option value="Yunusabad">Yunusobod</option>
+                <option value="Chilanzar">Chilonzor</option>
+                <option value="Mirzo Ulugbek">Mirzo Ulug‘bek</option>
+                <option value="Yakkasaroy">Yakkasaroy</option>
+              </select>
             </div>
-            <div>
-              <div class="text-sm font-bold text-[#1B3249]" data-i18n="hero.badgeLeftTitle">
-                420+ Tashkent Ad Spaces
-              </div>
-              <div class="text-xs font-extrabold text-[#284B63] mt-0.5" data-i18n="hero.badgeLeftSub">
-                Ready to Book Instantly Without Middlemen
-              </div>
+
+            <div class="sm:col-span-4 px-3 py-1.5 rounded-2xl bg-[#F3EDE2] border border-[#C8AD8D]/50">
+              <label class="block text-[10px] font-extrabold uppercase tracking-wider text-[#5A6B7C]" data-i18n="hero.searchFmtLbl">2. Select Ad Format</label>
+              <select id="hero-filter-format" class="w-full bg-transparent text-xs font-extrabold text-[#1B3249] focus:outline-none mt-0.5 cursor-pointer">
+                <option value="all" data-i18n="mapSection.allFormats">All Formats</option>
+                <option value="billboard" data-i18n="mapSection.fmtBillboard">Billboard 3×6m</option>
+                <option value="led" data-i18n="mapSection.fmtLed">Digital LED</option>
+                <option value="bus_stop" data-i18n="mapSection.fmtBus">Bus Shelter</option>
+              </select>
+            </div>
+
+            <div class="sm:col-span-4">
+              <button type="button" onclick="executeHeroQuickSearch()" class="btn-cobalt-pill w-full justify-center py-3.5 px-4 text-xs font-extrabold cursor-pointer">
+                <span data-i18n="hero.searchBtn">Search Map &amp; Prices →</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 4 Clean Executive KPI Metric Cards -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+            <div class="frosted-sky-card p-3.5 text-left">
+              <div class="text-xl sm:text-2xl font-extrabold text-[#1B3249]" data-i18n="hero.kpi1Val">420+</div>
+              <div class="text-[11px] font-bold text-[#284B63]" data-i18n="hero.kpi1Lbl">Verified Ad Spaces</div>
+            </div>
+            <div class="frosted-sky-card p-3.5 text-left">
+              <div class="text-xl sm:text-2xl font-extrabold text-[#1B3249]" data-i18n="hero.kpi2Val">84,000</div>
+              <div class="text-[11px] font-bold text-[#284B63]" data-i18n="hero.kpi2Lbl">Avg Daily Views</div>
+            </div>
+            <div class="frosted-sky-card p-3.5 text-left">
+              <div class="text-xl sm:text-2xl font-extrabold text-[#1B3249]" data-i18n="hero.kpi3Val">2 Sec</div>
+              <div class="text-[11px] font-bold text-[#284B63]" data-i18n="hero.kpi3Lbl">Law ZRU-776 Check</div>
+            </div>
+            <div class="frosted-sky-card p-3.5 text-left">
+              <div class="text-xl sm:text-2xl font-extrabold text-[#1B3249]" data-i18n="hero.kpi4Val">0%</div>
+              <div class="text-[11px] font-bold text-[#284B63]" data-i18n="hero.kpi4Lbl">Agency Markup</div>
             </div>
           </div>
         </div>
 
-        <!-- Centerpiece: Tilted 3D Sapphire & Warm Beige Display Controller -->
-        <div class="lg:col-span-4 flex flex-col items-center relative">
-          
-          <div onclick="openGuideModal(2)" class="frosted-sky-card px-4 py-2 rounded-full flex items-center gap-2.5 shadow-lg mb-3 lg:absolute lg:-right-20 lg:top-6 z-30 cursor-pointer hover:scale-105 transition-transform">
-            <div class="flex -space-x-1.5">
-              <span class="w-6 h-6 rounded-full bg-[#1B3249] text-[#F6F2EA] text-[10px] font-bold flex items-center justify-center border border-[#FBF9F5]">CH</span>
-              <span class="w-6 h-6 rounded-full bg-[#284B63] text-[#F6F2EA] text-[10px] font-bold flex items-center justify-center border border-[#FBF9F5]">YU</span>
-              <span class="w-6 h-6 rounded-full bg-[#D4B895] text-[#1B3249] text-[10px] font-bold flex items-center justify-center border border-[#FBF9F5]">MU</span>
-            </div>
-            <span class="text-xs font-bold text-[#1B3249]" data-i18n="hero.badgeRightText">84,000+ Daily Commuters</span>
-          </div>
-
-          <!-- Tilted 3D Sapphire & Warm Beige Command Screen -->
-          <div class="w-64 sm:w-72 rounded-[36px] p-3 bg-gradient-to-b from-[#284B63] via-[#1B3249] to-[#142638] shadow-[0_30px_60px_-12px_rgba(27,50,73,0.42)] border-[3px] border-[#D4B895]/65 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
-            <div class="rounded-[28px] bg-gradient-to-b from-[#284B63] via-[#1F3B54] to-[#1B3249] p-5 text-[#FBF9F5] relative overflow-hidden min-h-[340px] flex flex-col justify-between">
-              
-              <div class="w-40 h-40 rounded-full bg-[#D4B895]/25 blur-xl absolute -top-10 left-1/2 -translate-x-1/2 pointer-events-none"></div>
-
-              <div class="text-center relative z-10 pt-1">
-                <div class="text-[10px] uppercase tracking-widest text-[#EBE2D3] font-semibold" data-i18n="hero.liveNetwork">TASHKENT LIVE NETWORK</div>
-                <div class="text-4xl font-light tracking-tight mt-0.5 text-[#FBF9F5]">09:41</div>
-              </div>
-
-              <!-- Center Playable Video Guide Button Inside Phone -->
-              <div class="my-auto flex flex-col items-center justify-center relative z-10 py-3">
-                <button type="button" onclick="openGuideModal(0)" class="w-24 h-24 rounded-full border-2 border-[#D4B895] bg-gradient-to-tr from-[#1B3249] via-[#284B63] to-[#C8AD8D] flex flex-col items-center justify-center shadow-lg hover:scale-105 transition-transform cursor-pointer group" title="Watch Video Guide">
-                  <svg class="w-9 h-9 text-[#FBF9F5] anim-float" viewBox="0 0 24 24" fill="currentColor">
-                    <polygon points="8,5 19,12 8,19"/>
-                  </svg>
-                  <span class="text-[9px] font-extrabold uppercase tracking-wider text-[#EBE2D3] mt-0.5" data-i18n="hero.videoGuideBtn">Video Guide</span>
-                </button>
-              </div>
-
-              <!-- Notification Card Inside Screen -->
-              <div onclick="openGuideModal(1)" class="bg-[#FBF9F5] text-[#1B3249] rounded-2xl p-3.5 shadow-lg relative z-10 space-y-1.5 border border-[#EBE2D3] cursor-pointer hover:border-[#284B63]">
-                <div class="flex items-center justify-between">
-                  <span class="inline-flex items-center gap-1.5 text-[11px] font-extrabold text-[#284B63]">
-                    <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                    </svg>
-                    <span data-i18n="hero.floatCardTitle">Smart Advisory Active</span>
-                  </span>
-                  <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-[#EBE2D3] text-[#1B3249]" data-i18n="hero.fitScore">98% Fit</span>
-                </div>
-                <div class="text-xs font-semibold text-[#5A6B7C]" data-i18n="hero.floatCardSub">
-                  Zone &amp; state language verified in 2s
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div onclick="selectTunnelSpot('YUN-01')" class="frosted-sky-card px-4 py-2.5 rounded-2xl flex items-center gap-2.5 shadow-lg mt-3 lg:absolute lg:-right-16 lg:bottom-12 z-30 cursor-pointer hover:scale-105 transition-transform">
-            <span class="w-7 h-7 rounded-full bg-[#284B63] text-[#D4B895] flex items-center justify-center">
-              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-            </span>
-            <div class="text-left">
-              <div class="text-xs font-extrabold text-[#1B3249]" data-i18n="hero.spotPillTitle">Amir Temur Ave · YUN-01</div>
-              <div class="text-[11px] text-[#5A6B7C] font-semibold" data-i18n="hero.spotPillSub">6.9M UZS / mo · Verified</div>
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Right Floating Card: Live Analytics & Video Walkthrough Trigger -->
-        <div class="lg:col-span-4 flex justify-center lg:justify-end">
-          <div class="frosted-sky-card p-6 max-w-xs w-full space-y-4">
-            <div class="flex items-center justify-between">
-              <span class="px-3 py-1 rounded-full text-[11px] font-bold bg-[#EBE2D3] text-[#1B3249] border border-[#C8AD8D]/40" data-i18n="hero.rightCardKicker">
-                LIVE TELEMETRY
+        <!-- Right Column (5 cols): AdQuick-Style Live Campaign & CPM Preview Card -->
+        <div class="lg:col-span-5">
+          <div class="bento-white-card p-6 space-y-4 border-2 border-[#C8AD8D] shadow-2xl">
+            <div class="flex items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-full bg-[#1B3249] text-[#D4B895] text-[10px] font-extrabold uppercase tracking-wider" data-i18n="hero.previewBadge">
+                LIVE FLAGSHIP PREVIEW · YUN-01
               </span>
-              <svg class="w-5 h-5 text-[#284B63] anim-spin-slow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="9" stroke-dasharray="4 3"></circle>
-                <circle cx="12" cy="12" r="3"></circle>
-              </svg>
+              <span class="px-2.5 py-1 rounded-full bg-[#EBE2D3] text-[#284B63] text-xs font-extrabold inline-flex items-center gap-1">
+                <svg class="w-3.5 h-3.5 text-[#284B63]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span data-i18n="hero.fitScore">98% Fit</span>
+              </span>
             </div>
-            <div class="text-2xl font-extrabold text-[#1B3249] leading-tight" data-i18n="hero.rightCardTitle">
-              Book Billboards in 5 Minutes.
+
+            <!-- Street-Level Visual Billboard Mockup -->
+            <div onclick="selectSpotFromMap('YUN-01'); document.getElementById('map-section').scrollIntoView({behavior:'smooth'});" class="rounded-2xl p-4 bg-gradient-to-b from-[#284B63] via-[#1B3249] to-[#142638] text-[#FBF9F5] cursor-pointer hover:opacity-95 transition-all space-y-3 border border-[#D4B895]/40">
+              <div class="flex items-center justify-between text-[10px] font-bold text-[#EBE2D3]">
+                <span data-i18n="hero.spotPillTitle">Amir Temur Ave · YUN-01</span>
+                <span>GPS: 41.311°N, 69.279°E</span>
+              </div>
+              <div class="rounded-xl bg-[#FBF9F5] text-[#1B3249] p-3.5 border-4 border-[#D4B895]/80 shadow-lg">
+                <div class="flex items-center justify-between text-[10px] font-extrabold text-[#284B63] uppercase">
+                  <span>YUNUSOBOD · 6.0m × 3.0m</span>
+                  <span data-i18n="mapSection.verified">Verified</span>
+                </div>
+                <div class="text-sm font-black text-[#1B3249] mt-0.5" data-i18n="mapSection.yourAdHere">YOUR BRAND AD HERE</div>
+                <div class="mt-2 flex items-center justify-between text-[11px] bg-[#EBE2D3] px-2.5 py-1 rounded font-bold text-[#1B3249]">
+                  <span data-i18n="hero.floatCardTitle">Smart Advisory Active</span>
+                  <span data-i18n="hero.badgeRightText">84,000+ Daily Commuters</span>
+                </div>
+              </div>
             </div>
-            <p class="text-xs text-[#5A6B7C] leading-relaxed" data-i18n="hero.rightCardDesc">
-              Direct self-service marketplace with built-in school/mosque zone guidance and state language check.
-            </p>
-            <div class="pt-2 border-t border-[#C8AD8D]/40 flex items-center justify-between text-xs font-bold text-[#1B3249]">
-              <button type="button" onclick="openGuideModal(0)" class="text-[#284B63] hover:underline flex items-center gap-1 cursor-pointer">
-                <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>
+
+            <!-- 3 Crisp AdQuick Metrics: Monthly Price, Monthly Views, CPM -->
+            <div class="grid grid-cols-3 gap-2.5 text-center py-2 border-y border-[#C8AD8D]/40">
+              <div class="p-2 rounded-xl bg-[#F3EDE2]">
+                <div class="text-sm sm:text-base font-extrabold text-[#284B63]">5.2M UZS</div>
+                <div class="text-[10px] font-bold text-[#5A6B7C]" data-i18n="mapSection.perMonth">UZS / mo</div>
+              </div>
+              <div class="p-2 rounded-xl bg-[#F3EDE2]">
+                <div class="text-sm sm:text-base font-extrabold text-[#1B3249]">2.52M</div>
+                <div class="text-[10px] font-bold text-[#5A6B7C]" data-i18n="hero.previewMonthlyViewsLbl">Monthly Views</div>
+              </div>
+              <div class="p-2 rounded-xl bg-[#F3EDE2]">
+                <div class="text-sm sm:text-base font-extrabold text-[#1B3249]">2,063 UZS</div>
+                <div class="text-[10px] font-bold text-[#5A6B7C]" data-i18n="hero.previewCpmLbl">CPM (Cost / 1K Views)</div>
+              </div>
+            </div>
+
+            <!-- 2 Clear Action Buttons -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              <button type="button" onclick="openGuideModal(0)" class="btn-cobalt-pill justify-center py-3 px-4 text-xs font-bold cursor-pointer">
+                <svg class="w-3.5 h-3.5 text-[#D4B895]" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>
                 <span data-i18n="hero.watchVideo">Watch Video Guide</span>
               </button>
-              <button type="button" onclick="openAuthModal('register')" class="text-[#8C7355] hover:underline flex items-center gap-1 cursor-pointer">
-                <span data-i18n="hero.registerFree">Register Free</span>
-                <svg class="w-3.5 h-3.5 arrow-hover-shift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-                  <line x1="7" y1="17" x2="17" y2="7"></line>
-                  <polyline points="7 7 17 7 17 17"></polyline>
-                </svg>
+              <button type="button" onclick="openGuideModal(2)" class="btn-white-pill justify-center py-3 px-4 text-xs font-bold cursor-pointer">
+                <span data-i18n="bento.card2Link">Open 84K Traffic Calculator</span>
               </button>
             </div>
           </div>
         </div>
 
       </div>
-
-      <!-- Center Bottom Pill Buttons -->
-      <div class="flex flex-wrap items-center justify-center gap-3 mt-10 relative z-30">
-        <a href="#map-section" class="btn-cobalt-pill px-7 py-3.5 text-xs sm:text-sm font-bold">
-          <span data-i18n="hero.ctaMain">Explore Available Spaces</span>
-          <svg class="w-4 h-4 text-[#D4B895] arrow-right-shift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="4" y1="12" x2="20" y2="12"></line>
-            <polyline points="14 6 20 12 14 18"></polyline>
-          </svg>
-        </a>
-        <button type="button" onclick="openGuideModal(0)" class="btn-white-pill px-6 py-3.5 text-xs sm:text-sm font-bold cursor-pointer">
-          <svg class="w-4 h-4 text-[#284B63]" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>
-          <span data-i18n="hero.ctaSecondary">Interactive Video Guide (How It Works)</span>
-        </button>
-      </div>
-
     </div>
 
     <div class="hero-bottom-curve"></div>
@@ -240,105 +220,82 @@
   <!-- ========================================================================
        2. HORIZONTAL FEATURE PILL ROW
        ======================================================================== -->
-  <section class="py-6 max-w-6xl mx-auto px-6">
+  <section class="py-5 max-w-6xl mx-auto px-6">
     <div id="hero-pills-row" class="flex flex-wrap items-center justify-center gap-2.5"></div>
   </section>
 
   <!-- ========================================================================
-       3. INTERACTIVE BENTO GRID: VIDEO GUIDE, PRE-CHECK & 84K TRAFFIC CALCULATOR
-       (Every Card Opens an Interactive Tool / Video Walkthrough!)
+       3. CLEAN 3-STEP ADQUICK WORKFLOW: VIDEO GUIDE, PRE-CHECK & 84K ROI CALCULATOR
        ======================================================================== -->
-  <section id="bento-section" class="py-12 max-w-6xl mx-auto px-6 space-y-6">
-    
+  <section id="bento-section" class="py-10 max-w-6xl mx-auto px-6 space-y-6">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
       
-      <!-- Left Card (5 cols): Interactive Video Guide & 5-Step Walkthrough -->
-      <div onclick="openGuideModal(0)" class="lg:col-span-5 bento-ice-card p-7 relative overflow-hidden min-h-[310px] flex flex-col justify-between cursor-pointer group">
-        <svg class="absolute -bottom-8 -right-6 w-64 h-64 opacity-90 pointer-events-none" viewBox="0 0 200 200" fill="none">
-          <defs>
-            <linearGradient id="sapphireBeigeSphere" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stop-color="#D4B895"/>
-              <stop offset="50%" stop-color="#284B63"/>
-              <stop offset="100%" stop-color="#1B3249"/>
-            </linearGradient>
-          </defs>
-          <circle cx="100" cy="100" r="84" fill="url(#sapphireBeigeSphere)" opacity="0.22"/>
-          <path d="M25,90 Q65,45 105,90 T185,90" stroke="#284B63" stroke-width="2.5" fill="none" class="anim-scan-line"/>
-          <path d="M20,110 Q65,65 105,110 T185,110" stroke="#1B3249" stroke-width="2" fill="none" opacity="0.6"/>
-          <path d="M30,130 Q70,85 110,130 T180,130" stroke="#8C7355" stroke-width="2.5" fill="none"/>
-        </svg>
-
-        <div class="space-y-2 relative z-10">
-          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#284B63] text-[#FBF9F5] text-[11px] font-bold">
-            <svg class="w-3 h-3 text-[#D4B895]" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>
-            <span data-i18n="bento.videoBadge">VIDEO &amp; VISUAL GUIDE</span>
-          </span>
-          <h2 class="text-xl sm:text-2xl font-extrabold tracking-tight text-[#1B3249] max-w-xs" data-i18n="bento.step1Title">
+      <!-- Card 1 (4 cols): Interactive 5-Step Video Guide -->
+      <div onclick="openGuideModal(0)" class="lg:col-span-4 bento-ice-card p-6 flex flex-col justify-between cursor-pointer group hover:border-[#284B63] transition-all">
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#284B63] text-[#FBF9F5] text-[10px] font-bold">
+              <svg class="w-3 h-3 text-[#D4B895]" viewBox="0 0 24 24" fill="currentColor"><polygon points="6,4 20,12 6,20"/></svg>
+              <span data-i18n="bento.videoBadge">VIDEO &amp; VISUAL GUIDE</span>
+            </span>
+            <span class="text-xs font-extrabold text-[#284B63]">STEP 01</span>
+          </div>
+          <h2 class="text-lg font-extrabold tracking-tight text-[#1B3249]" data-i18n="bento.step1Title">
             HOW ADSPOT WORKS: A STEP-BY-STEP GUIDE
           </h2>
-          <p class="text-xs text-[#5A6B7C] max-w-xs" data-i18n="bento.step1Desc">
+          <p class="text-xs text-[#5A6B7C] leading-relaxed" data-i18n="bento.step1Desc">
             Click here to play the interactive 5-step video walkthrough showing how to find, check, and book a billboard.
           </p>
         </div>
-
-        <div class="flex items-center justify-between relative z-10 pt-4">
-          <div class="flex items-center gap-2 text-xs font-bold text-[#284B63]">
-            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-              <circle cx="12" cy="12" r="10"></circle>
-              <polyline points="12 6 12 12 16 14"></polyline>
-            </svg>
-            <span data-i18n="bento.flowTime">5-Minute Self-Service Flow</span>
-          </div>
-          <span class="px-4 py-2 rounded-full bg-[#1B3249] text-[#D4B895] text-xs font-extrabold group-hover:bg-[#284B63] transition-colors" data-i18n="bento.playGuideBtn">
+        <div class="pt-4 mt-4 border-t border-[#C8AD8D]/40 flex items-center justify-between">
+          <span class="text-xs font-bold text-[#284B63]" data-i18n="bento.flowTime">5-Minute Self-Service Flow</span>
+          <span class="px-3.5 py-1.5 rounded-full bg-[#1B3249] text-[#D4B895] text-xs font-extrabold group-hover:bg-[#284B63] transition-colors" data-i18n="bento.playGuideBtn">
             ▶ Play Guide
           </span>
         </div>
       </div>
 
-      <!-- Middle Card (4 cols): "01 SELECT & PRE-CHECK" (Opens Interactive Pre-Check Simulator) -->
-      <div onclick="openGuideModal(1)" class="lg:col-span-4 rounded-[26px] bg-gradient-to-b from-[#1B3249] to-[#284B63] p-1.5 flex flex-col justify-end min-h-[310px] relative overflow-hidden cursor-pointer group">
-        <div class="p-5 text-[#F6F2EA]/90 text-xs font-semibold flex items-center justify-between">
-          <span data-i18n="bento.card1TopLeft">SMART ADVISORY ENGINE</span>
-          <span class="px-2.5 py-0.5 rounded-full bg-[#D4B895]/25 text-[#EBE2D3] border border-[#D4B895]/40 text-[10px]" data-i18n="bento.card1TopRight">AI + ZONES</span>
-        </div>
-
-        <div class="bento-ice-card p-6 mt-auto relative">
-          <div class="text-sm font-extrabold text-[#284B63] mb-2">01</div>
+      <!-- Card 2 (4 cols): 02 Select & Pre-Check (Law ZRU-776) -->
+      <div onclick="openGuideModal(1)" class="lg:col-span-4 bento-ice-card p-6 flex flex-col justify-between cursor-pointer group hover:border-[#284B63] transition-all">
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <span class="px-3 py-1 rounded-full bg-[#1B3249] text-[#D4B895] text-[10px] font-bold" data-i18n="bento.card1TopLeft">
+              SMART ADVISORY ENGINE
+            </span>
+            <span class="text-xs font-extrabold text-[#284B63]">STEP 02</span>
+          </div>
           <h3 class="text-lg font-extrabold text-[#1B3249]" data-i18n="bento.step2Title">
             SELECT &amp; PRE-CHECK
           </h3>
-          <p class="text-xs text-[#5A6B7C] mt-2 leading-relaxed pr-10" data-i18n="bento.step2Desc">
+          <p class="text-xs text-[#5A6B7C] leading-relaxed" data-i18n="bento.step2Desc">
             Select the billboard format that best suits your neighborhood budget and run our instant Smart Advisory check.
           </p>
-          <div class="mt-3 text-[11px] font-extrabold text-[#284B63] underline" data-i18n="bento.launchPreCheck">
+        </div>
+        <div class="pt-4 mt-4 border-t border-[#C8AD8D]/40 flex items-center justify-between">
+          <span class="text-xs font-extrabold text-[#284B63] group-hover:underline" data-i18n="bento.launchPreCheck">
             Click to launch Pre-Check Demo ↗
-          </div>
-          <span class="w-9 h-9 rounded-full bg-[#284B63] text-[#FBF9F5] flex items-center justify-center group-hover:bg-[#1B3249] transition-all absolute bottom-5 right-5 shadow-sm">
-            <svg class="w-4 h-4 arrow-hover-shift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-              <line x1="7" y1="17" x2="17" y2="7"></line>
-              <polyline points="7 7 17 7 17 17"></polyline>
-            </svg>
           </span>
+          <span class="px-2.5 py-1 rounded-full bg-[#EBE2D3] text-[#1B3249] text-[10px] font-bold" data-i18n="bento.card1TopRight">AI + ZONES</span>
         </div>
       </div>
 
-      <!-- Right Card (3 cols): "02 VERIFIED TRAFFIC — 84K COMMUTERS DAILY" (Opens Interactive 84K Reach Calculator!) -->
-      <div onclick="openGuideModal(2)" class="lg:col-span-3 bento-cobalt-art p-6 flex flex-col justify-between min-h-[310px] relative overflow-hidden cursor-pointer group">
-        <div class="flex items-center justify-between">
-          <span class="text-[11px] font-bold uppercase tracking-widest text-[#EBE2D3]" data-i18n="bento.card2Kicker">
-            02 · VERIFIED TRAFFIC
-          </span>
-          <span class="px-2 py-0.5 rounded-full bg-[#D4B895] text-[#1B3249] text-[10px] font-extrabold" data-i18n="bento.calcBadge">CALCULATOR</span>
-        </div>
-        <div class="my-auto py-4">
-          <div class="text-2xl font-extrabold leading-snug text-[#FBF9F5]" data-i18n="bento.card2Title">
+      <!-- Card 3 (4 cols): 03 Verified Traffic — 84K Commuters Daily Calculator -->
+      <div onclick="openGuideModal(2)" class="lg:col-span-4 bento-cobalt-art p-6 flex flex-col justify-between cursor-pointer group">
+        <div class="space-y-2.5">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase tracking-widest text-[#EBE2D3]" data-i18n="bento.card2Kicker">
+              02 · VERIFIED TRAFFIC
+            </span>
+            <span class="px-2.5 py-0.5 rounded-full bg-[#D4B895] text-[#1B3249] text-[10px] font-extrabold" data-i18n="bento.calcBadge">CALCULATOR</span>
+          </div>
+          <div class="text-lg font-extrabold leading-snug text-[#FBF9F5]" data-i18n="bento.card2Title">
             A VERIFIED BILLBOARD REACHES 84K COMMUTERS DAILY
           </div>
-          <p class="text-xs text-[#EBE2D3]/85 mt-2" data-i18n="bento.card2Desc">
+          <p class="text-xs text-[#EBE2D3]/85 leading-relaxed" data-i18n="bento.card2Desc">
             Click to calculate how many customers &amp; views your shop gets from 84,000 daily commuters.
           </p>
         </div>
-        <div class="inline-flex items-center gap-1.5 text-xs font-extrabold text-[#D4B895] group-hover:underline">
+        <div class="pt-4 mt-4 border-t border-[#EBE2D3]/20 inline-flex items-center justify-between text-xs font-extrabold text-[#D4B895] group-hover:underline">
           <span data-i18n="bento.card2Link">Open 84K Traffic Calculator</span>
           <svg class="w-4 h-4 arrow-hover-shift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
             <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -348,147 +305,12 @@
       </div>
 
     </div>
-
-    <!-- Bottom Full-Width Oxford & Sapphire Banner: "03 GET REAL-TIME IMPRESSION UPDATES" -->
-    <div onclick="openGuideModal(3)" class="bento-navy-banner p-7 sm:p-9 grid grid-cols-1 lg:grid-cols-12 gap-6 items-center cursor-pointer hover:border-[#D4B895] transition-all">
-      <div class="lg:col-span-4 space-y-1">
-        <div class="text-sm font-extrabold text-[#D4B895]" data-i18n="bento.step3Kicker">03 · CLICK TO INSPECT LIVE TELEMETRY</div>
-        <h3 class="text-xl sm:text-2xl font-extrabold tracking-tight text-[#FBF9F5]" data-i18n="bento.step3Title">
-          GET REAL-TIME IMPRESSION UPDATES
-        </h3>
-      </div>
-
-      <div class="lg:col-span-4 flex justify-center">
-        <div class="px-5 py-3.5 rounded-2xl bg-[#FBF9F5]/10 backdrop-blur-md border border-[#D4B895]/30 flex items-center gap-3.5">
-          <span class="w-9 h-9 rounded-xl bg-[#D4B895] flex items-center justify-center shrink-0">
-            <svg class="w-5 h-5 text-[#1B3249] anim-float" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-            </svg>
-          </span>
-          <div>
-            <div class="text-xs font-extrabold text-[#FBF9F5]" data-i18n="bento.liveBadgeTitle">Your Billboard Is Live · CHIL-02</div>
-            <div class="text-[11px] text-[#EBE2D3]" data-i18n="bento.liveBadgeSub">92,500 daily views · Verified Photo Proof</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="lg:col-span-4 text-xs text-[#EBE2D3]/85 leading-relaxed lg:text-right" data-i18n="bento.step3Desc">
-        Receive instant launch confirmation with your billboard's live traffic metrics, expiration countdown, and verified photo proof.
-      </div>
-    </div>
-
   </section>
 
   <!-- ========================================================================
-       4. ANIMATED 3D SPATIAL BILLBOARD ROOM ("Your business engine")
+       4. ADQUICK-STYLE INTERACTIVE TASHKENT MAP + STREET VIEW + COMPARISON CATALOG
        ======================================================================== -->
-  <section id="tunnel-section" class="max-w-6xl mx-auto px-6 py-10">
-    <div id="tunnel-wrapper" class="tunnel-scene-wrapper" onmousemove="handleTunnelMouseMove(event)" onmouseleave="resetTunnelTilt()">
-      
-      <div id="tunnel-room" class="tunnel-3d-room">
-        
-        <div onclick="selectTunnelSpot('YUN-01')" class="spatial-screen screen-top-near bg-gradient-to-b from-[#FBF9F5] to-[#EBE2D3] text-[#1B3249] p-5 flex flex-col justify-between">
-          <div class="flex justify-between text-[10px] font-extrabold tracking-widest uppercase text-[#284B63]">
-            <span data-i18n="tunnel.s1TopLeft">AMIR TEMUR AVENUE · YUN-01</span>
-            <span data-i18n="tunnel.s1TopRight">84,000 VIEWS/DAY</span>
-          </div>
-          <div class="text-center my-auto">
-            <div class="text-2xl font-extrabold tracking-tight uppercase" data-i18n="tunnel.s1Title">AMIR TEMUR FLAGSHIP</div>
-            <div class="text-xs text-[#5A6B7C] mt-1" data-i18n="tunnel.s1Sub">6.0m × 3.0m Illuminated Billboard</div>
-          </div>
-          <div class="h-1 w-24 mx-auto rounded-full bg-[#C8AD8D]"></div>
-        </div>
-
-        <div onclick="selectTunnelSpot('MIR-01')" class="spatial-screen screen-top-deep bg-gradient-to-r from-[#1B3249] to-[#284B63] text-[#FBF9F5] p-4 flex items-center justify-center">
-          <div class="text-center">
-            <div class="text-lg font-extrabold tracking-wider uppercase text-[#D4B895]" data-i18n="tunnel.s2Title">DARXON 3D LED · MIR-01</div>
-            <div class="text-[11px] text-[#EBE2D3]" data-i18n="tunnel.s2Sub">96,200 daily impressions</div>
-          </div>
-        </div>
-
-        <div onclick="selectTunnelSpot('CHIL-01')" class="spatial-screen screen-left-near bg-[#FBF9F5] text-[#1B3249] flex flex-col justify-between">
-          <div class="p-3.5 text-center">
-            <div class="text-[10px] font-bold uppercase tracking-widest text-[#5A6B7C]" data-i18n="tunnel.s3Top">CHILONZOR METRO · CHIL-01</div>
-            <div class="text-lg font-extrabold mt-0.5" data-i18n="tunnel.s3Title">Chilanzar Trade Hub</div>
-            <span class="inline-block mt-1 px-2.5 py-0.5 rounded-full bg-[#284B63] text-[#FBF9F5] text-[10px] font-bold" data-i18n="tunnel.s3Price">5.4M UZS / mo</span>
-          </div>
-          <div class="h-28 w-full bg-gradient-to-tr from-[#1B3249] via-[#284B63] to-[#C8AD8D] relative flex items-end justify-between p-3 text-[#FBF9F5]">
-            <span class="text-[10px] font-bold" data-i18n="tunnel.s3Views">68,400 daily views</span>
-            <span class="text-[10px] font-bold">3×6m</span>
-          </div>
-        </div>
-
-        <div onclick="selectTunnelSpot('CHIL-02')" class="spatial-screen screen-left-deep bg-gradient-to-br from-[#1B3249] via-[#284B63] to-[#3A607D] text-[#FBF9F5] p-4 flex flex-col justify-between">
-          <div class="text-[10px] font-bold text-[#D4B895] uppercase tracking-wider" data-i18n="tunnel.s4Top">NOVZA 4K LED · CHIL-02</div>
-          <div class="my-auto">
-            <div class="text-base font-extrabold" data-i18n="tunnel.s4Title">Panoramic Artery LED</div>
-            <div class="text-xs text-[#EBE2D3] mt-0.5" data-i18n="tunnel.s4Views">92,500 views/day</div>
-          </div>
-          <div class="px-2.5 py-1 rounded bg-[#D4B895]/25 text-[#EBE2D3] text-[10px] font-bold w-max" data-i18n="tunnel.s4Price">7.8M UZS / mo</div>
-        </div>
-
-        <div onclick="selectTunnelSpot('YUN-02')" class="spatial-screen screen-right-deep bg-gradient-to-br from-[#F6F2EA] to-[#DFD3C0] text-[#1B3249] p-4 flex flex-col justify-between">
-          <div class="text-[10px] font-extrabold uppercase text-[#284B63]" data-i18n="tunnel.s5Top">MEGA PLANET · YUN-02</div>
-          <div class="my-auto text-center">
-            <div class="text-lg font-black uppercase leading-none" data-i18n="tunnel.s5Title">SMART SHELTER</div>
-            <div class="text-[11px] font-semibold text-[#5A6B7C] mt-1" data-i18n="tunnel.s5Views">39,500 pedestrian views</div>
-          </div>
-          <div class="text-[10px] font-extrabold text-[#284B63] text-right" data-i18n="tunnel.s5Price">2.9M UZS / mo</div>
-        </div>
-
-        <div onclick="selectTunnelSpot('YAK-01')" class="spatial-screen screen-right-near bg-gradient-to-br from-[#1B3249] via-[#284B63] to-[#16293D] text-[#FBF9F5] p-5 flex flex-col justify-between">
-          <div class="flex justify-between text-[10px] font-bold tracking-widest text-[#D4B895]">
-            <span data-i18n="tunnel.s6TopLeft">SHOTA RUSTAVELI · YAK-01</span>
-            <span data-i18n="tunnel.s6TopRight">VERIFIED</span>
-          </div>
-          <div class="my-auto text-center">
-            <div class="text-lg font-extrabold tracking-wide uppercase" data-i18n="tunnel.s6Title">BRT TRANSIT CORRIDOR</div>
-            <div class="text-xs text-[#EBE2D3] mt-1" data-i18n="tunnel.s6Views">48,000 daily commuters</div>
-            <span class="inline-block mt-2 px-3 py-1 rounded-full bg-[#EBE2D3] text-[#1B3249] text-[10px] font-extrabold" data-i18n="tunnel.s6Price">3.4M UZS / mo</span>
-          </div>
-          <div class="text-[10px] text-[#D4B895] text-right" data-i18n="tunnel.s6Hint">Click to inspect on map</div>
-        </div>
-
-        <div onclick="selectTunnelSpot('MIR-01')" class="spatial-screen screen-bottom-near bg-gradient-to-r from-[#1B3249] via-[#284B63] to-[#1B3249] text-[#FBF9F5] p-4 flex items-center justify-between">
-          <div>
-            <div class="text-xs font-bold text-[#D4B895]" data-i18n="tunnel.s7Title">TASHKENT CITY GATEWAY</div>
-            <div class="text-[11px] text-[#EBE2D3]" data-i18n="tunnel.s7Sub">89,000 daily views · 3×6m Euro-Standard</div>
-          </div>
-          <span class="px-3 py-1 rounded-full bg-[#EBE2D3] text-[#1B3249] text-xs font-extrabold" data-i18n="tunnel.s7Price">7.2M UZS</span>
-        </div>
-
-      </div>
-
-      <!-- Center Focal Control -->
-      <div class="absolute inset-0 flex flex-col items-center justify-center pointer-events-none z-20">
-        <div class="pointer-events-auto text-center px-7 py-5 rounded-3xl bg-[#1B3249]/85 backdrop-blur-xl border border-[#D4B895]/35 shadow-2xl">
-          <div class="text-[11px] font-bold uppercase tracking-widest text-[#D4B895] mb-1" data-i18n="tunnel.kicker">
-            INTERACTIVE 3D BILLBOARD CORRIDOR
-          </div>
-          <div class="flex items-center justify-center gap-3.5">
-            <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#FBF9F5]" data-i18n="tunnel.title">
-              Your business engine
-            </h2>
-            <button onclick="toggleTunnelAnimation()" id="tunnel-play-btn" class="w-11 h-11 rounded-full bg-[#D4B895] text-[#1B3249] hover:bg-[#EBE2D3] transition-all flex items-center justify-center shadow-lg" title="Toggle 3D Animation">
-              <svg id="tunnel-play-svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                <rect x="6" y="4" width="4" height="16" rx="1"></rect>
-                <rect x="14" y="4" width="4" height="16" rx="1"></rect>
-              </svg>
-            </button>
-          </div>
-          <p class="text-xs text-[#EBE2D3]/80 mt-1.5" data-i18n="tunnel.subtitle">
-            Move your mouse to tilt the 3D space or click any floating billboard to inspect
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ========================================================================
-       5. INTERACTIVE TASHKENT MAP (WORKING OPENSTREETMAP/ESRI + VECTOR + VISUAL PHOTO PREVIEW)
-       ======================================================================== -->
-  <section id="map-section" class="py-16 max-w-6xl mx-auto px-6">
+  <section id="map-section" class="py-14 max-w-6xl mx-auto px-6 border-t border-[#C8AD8D]/35">
     
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
       <div>
@@ -546,27 +368,21 @@
         <!-- 2. Schematic Vector Map of Tashkent (Instant Offline / Preview Mode) -->
         <svg id="tashkent-svg-map" viewBox="0 0 680 410" class="hidden w-full h-auto rounded-2xl block select-none bg-[#EFE8DC]">
           <rect width="680" height="410" fill="#EFE8DC"/>
-          <!-- Parks & Green Zones -->
           <circle cx="330" cy="180" r="45" fill="#DFD9C8" opacity="0.7"/>
           <circle cx="190" cy="290" r="50" fill="#DFD9C8" opacity="0.7"/>
-          <!-- Ring Highway & Avenues -->
           <ellipse cx="355" cy="205" rx="245" ry="155" fill="none" stroke="#C8B9A6" stroke-width="5" stroke-dasharray="8 6"/>
           <path d="M90 365 Q 290 230, 450 35" fill="none" stroke="#FBF9F5" stroke-width="8"/>
           <path d="M110 185 L 620 185" fill="none" stroke="#FBF9F5" stroke-width="6"/>
           <path d="M325 190 L 610 130" fill="none" stroke="#FBF9F5" stroke-width="6"/>
           <path d="M325 190 L 405 375" fill="none" stroke="#FBF9F5" stroke-width="6"/>
-          <!-- Metro Lines -->
           <path d="M130 330 L 295 235 L 400 115 L 465 75" fill="none" stroke="#284B63" stroke-width="2.5" stroke-dasharray="4 4" opacity="0.5"/>
-          <!-- Anhor Canal in Soft Slate Blue -->
           <path d="M460 20 C 410 110, 340 175, 255 390" fill="none" stroke="#7FA1BE" stroke-width="6.5" stroke-linecap="round"/>
 
-          <!-- District Labels -->
           <text x="125" y="335" fill="#284B63" font-size="11" font-weight="800" letter-spacing="1.5">CHILONZOR</text>
           <text x="310" y="65" fill="#284B63" font-size="11" font-weight="800" letter-spacing="1.5">YUNUSOBOD</text>
           <text x="495" y="125" fill="#284B63" font-size="11" font-weight="800" letter-spacing="1.5">MIRZO ULUG‘BEK</text>
           <text x="330" y="370" fill="#284B63" font-size="11" font-weight="800" letter-spacing="1.5">YAKKASAROY</text>
 
-          <!-- School / Mosque 150m Proximity Rings -->
           <circle cx="210" cy="280" r="30" fill="rgba(140, 115, 85, 0.16)" stroke="#8C7355" stroke-width="1.5" stroke-dasharray="3 3"/>
           <circle cx="400" cy="115" r="30" fill="rgba(140, 115, 85, 0.16)" stroke="#8C7355" stroke-width="1.5" stroke-dasharray="3 3"/>
 
@@ -635,6 +451,24 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- AdQuick-Style Side-by-Side Inventory Comparison Grid -->
+    <div class="mt-12 pt-8 border-t border-[#C8AD8D]/40 space-y-5">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+        <div>
+          <div class="text-xs font-extrabold uppercase tracking-wider text-[#284B63]" data-i18n="mapSection.catalogHeader">
+            SIDE-BY-SIDE INVENTORY COMPARISON CATALOG (ADQUICK STANDARD)
+          </div>
+          <p class="text-xs text-[#5A6B7C] mt-0.5" data-i18n="mapSection.catalogSub">
+            Compare daily traffic, monthly impressions, CPM (cost per 1,000 views), and 200m school/mosque zone status across every space.
+          </p>
+        </div>
+      </div>
+
+      <div id="adquick-catalog-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- Populated dynamically by renderAdQuickCatalogGrid() -->
+      </div>
     </div>
   </section>
 

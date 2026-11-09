@@ -1103,11 +1103,30 @@ function selectSpotFromMap(spotId) {
   }
 }
 
+function executeHeroQuickSearch() {
+  const heroDist = document.getElementById('hero-filter-district');
+  const heroFmt = document.getElementById('hero-filter-format');
+  const mapDist = document.getElementById('filter-district');
+  const mapFmt = document.getElementById('filter-format');
+
+  if (heroDist && mapDist) mapDist.value = heroDist.value;
+  if (heroFmt && mapFmt) mapFmt.value = heroFmt.value;
+
+  applyMapFilters();
+  const mapSec = document.getElementById('map-section');
+  if (mapSec) mapSec.scrollIntoView({ behavior: 'smooth' });
+}
+
 function applyMapFilters() {
   const distEl = document.getElementById('filter-district');
   const fmtEl = document.getElementById('filter-format');
   const dist = distEl ? distEl.value : 'all';
   const fmt = fmtEl ? fmtEl.value : 'all';
+
+  const heroDist = document.getElementById('hero-filter-district');
+  const heroFmt = document.getElementById('hero-filter-format');
+  if (heroDist && heroDist.value !== dist) heroDist.value = dist;
+  if (heroFmt && heroFmt.value !== fmt) heroFmt.value = fmt;
 
   const filtered = window.ADSPOT_SPOTS.filter(s => {
     return (dist === 'all' || s.district === dist) && (fmt === 'all' || s.format === fmt);
@@ -1119,11 +1138,75 @@ function applyMapFilters() {
 
   renderMapPins(filtered);
   renderQuickSpotButtons(filtered);
+  renderAdQuickCatalogGrid(filtered);
   if (currentMapMode === 'gps') {
     renderLeafletMarkers();
   }
   renderInspectorCard();
   updateCheckoutTotal();
+}
+
+function renderAdQuickCatalogGrid(spots) {
+  const grid = document.getElementById('adquick-catalog-grid');
+  if (!grid) return;
+  const dict = window.ADSPOT_I18N[currentLang].mapSection;
+
+  grid.innerHTML = spots.map(s => {
+    const isSel = s.id === selectedSpotId;
+    const monthlyViews = s.dailyTraffic * 30;
+    const monthlyViewsM = (monthlyViews / 1000000).toFixed(2) + 'M';
+    const cpmUZS = Math.round(s.monthlyPriceUZS / (monthlyViews / 1000));
+    const zoneBadge = s.sensitiveZone
+      ? `<span class="px-2.5 py-0.5 rounded-full bg-[#EBE2D3] text-[#8C7355] text-[10px] font-bold">${dict.sensZoneBadge || '⚠ 200m School/Mosque Zone'}</span>`
+      : `<span class="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold">${dict.safeZoneBadge || '✓ Safe Zone'}</span>`;
+
+    return `
+      <div class="bento-white-card p-5 flex flex-col justify-between space-y-4 transition-all ${
+        isSel ? 'ring-2 ring-[#284B63] border-[#284B63]' : 'hover:border-[#284B63]'
+      }">
+        <div class="space-y-2">
+          <div class="flex items-center justify-between gap-2">
+            <span class="px-2.5 py-1 rounded-full bg-[#1B3249] text-[#FBF9F5] text-[11px] font-extrabold">
+              ${s.id} · ${s.formatLabel[currentLang]}
+            </span>
+            ${zoneBadge}
+          </div>
+          <h4 class="text-base font-extrabold text-[#1B3249] leading-snug">${s.title[currentLang]}</h4>
+          <div class="text-xs text-[#5A6B7C] font-medium">${s.districtLabel[currentLang]} · ${s.street[currentLang]}</div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-2 text-center py-2.5 px-2 rounded-xl bg-[#F3EDE2] border border-[#C8AD8D]/40">
+          <div>
+            <div class="text-xs font-extrabold text-[#1B3249]">${formatNum(s.dailyTraffic)}</div>
+            <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.viewsDayShort || 'views/day'}</div>
+          </div>
+          <div>
+            <div class="text-xs font-extrabold text-[#1B3249]">${monthlyViewsM}</div>
+            <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.monthlyViewsLabel || 'Monthly Views'}</div>
+          </div>
+          <div>
+            <div class="text-xs font-extrabold text-[#284B63]">${formatNum(cpmUZS)} UZS</div>
+            <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.cpmLabel || 'CPM (per 1K)'}</div>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-1">
+          <div>
+            <div class="text-lg font-extrabold text-[#284B63]">${formatNum(s.monthlyPriceUZS)}</div>
+            <div class="text-[10px] font-bold text-[#5A6B7C]">${dict.perMonth} · ${s.dimensions}</div>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <button type="button" onclick="selectSpotFromMap('${s.id}')" class="px-3 py-2 rounded-full bg-[#EBE2D3] hover:bg-[#D4B895] text-[#1B3249] text-xs font-bold transition-colors cursor-pointer">
+              ${dict.inspectBtn || 'Inspect'}
+            </button>
+            <button type="button" onclick="selectSpotFromMap('${s.id}'); openAuthModal('book');" class="btn-cobalt-pill px-3.5 py-2 text-xs font-bold cursor-pointer">
+              <span>${window.ADSPOT_I18N[currentLang].nav.cta}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderQuickSpotButtons(spots) {
