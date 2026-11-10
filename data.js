@@ -6,89 +6,89 @@
 window.ADSPOT_I18N = {
   uz: {
     nav: {
-      howItWorks: "Video Yo‘riqnoma",
-      showcase: "3D Ko‘rgazma",
+      howItWorks: "Video Yöriqnoma",
+      showcase: "3D Körgazma",
       spaces: "Xarita va Katalog",
-      booking: "Smart Tekshiruv",
-      chat: "Jonli Chat",
+      booking: "Smart Tekşiruv",
+      chat: "Jonli Çat",
       portals: "Kabinetlar",
       team: "Biz haqimizda",
-      signUpLogin: "Ro‘yxatdan o‘tish / Kirish",
-      cta: "Joy band qilish"
+      signUpLogin: "Röyxatdan ötiş / Kiriş",
+      cta: "Joy band qiliş"
     },
     hero: {
-      adquickKicker: "TOSHKENTNING №1 TASHQI REKLAMA MARKETPLEYSI · ADQUICK STANDARTI",
-      adquickHeadline: "Toshkent bilbordlari va LED ekranlarini 5 daqiqada toping, tekshiring va band qiling.",
-      adquickSub: "420+ tasdiqlangan 3×6m bilbord, 4K raqamli ekran va bekatlarni shaffof UZS narxlari, 84 000+ kunlik oqim tahlili hamda O‘RQ-776 qonuniy pre-chek bilan vositachilarsiz bron qiling.",
+      adquickKicker: "TOŞKENTNING №1 TAŞQI REKLAMA MARKETPLEYSI · ADQUICK STANDARTI",
+      adquickHeadline: "Toşkent bilbordlari va LED ekranlarini 5 daqiqada toping, tekşiring va band qiling.",
+      adquickSub: "420+ tasdiqlangan 3×6m bilbord, 4K raqamli ekran va bekatlarni şaffof UZS narxlari, 84 000+ kunlik oqim tahlili hamda ÖRQ-776 qonuniy pre-çek bilan vositaçilarsiz bron qiling.",
       searchDistLbl: "1. Tumanni tanlang",
       searchFmtLbl: "2. Formatni tanlang",
-      searchBtn: "Xarita va narxlarni ko‘rish →",
+      searchBtn: "Xarita va narxlarni köriş →",
       kpi1Val: "420+",
       kpi1Lbl: "Tasdiqlangan joylar",
       kpi2Val: "84,000",
-      kpi2Lbl: "O‘rtacha kunlik oqim",
+      kpi2Lbl: "Örtaça kunlik oqim",
       kpi3Val: "2 soniya",
-      kpi3Lbl: "O‘RQ-776 Pre-Chek",
+      kpi3Lbl: "ÖRQ-776 Pre-Çek",
       kpi4Val: "0%",
-      kpi4Lbl: "Vositachi ustamasi",
+      kpi4Lbl: "Vositaçi ustamasi",
       previewBadge: "JONLI FLAGMAN NAMUNA · YUN-01",
-      previewCpmLbl: "CPM (1 000 ko‘rish narxi)",
-      previewMonthlyViewsLbl: "Oylik ko‘rishlar",
+      previewCpmLbl: "CPM (1 000 köriş narxi)",
+      previewMonthlyViewsLbl: "Oylik körişlar",
       badgeLeftTitle: "420+ Tasdiqlangan Nuqtalar",
-      badgeLeftSub: "Vositachilarsiz onlayn band qilishga tayyor",
+      badgeLeftSub: "Vositaçilarsiz onlayn band qilişga tayyor",
       badgeRightText: "84,000+ kunlik oqim",
-      liveNetwork: "TOSHKENT JONLI TARMOG‘I",
-      videoGuideBtn: "Video Qo‘llanma",
-      floatCardTitle: "Smart Maslahatchi Faol",
-      floatCardSub: "Hudud va davlat tili tekshiruvi: 2 soniya",
+      liveNetwork: "TOŞKENT JONLI TARMOĞI",
+      videoGuideBtn: "Video Qöllanma",
+      floatCardTitle: "Smart Maslahatçi Faol",
+      floatCardSub: "Hudud va davlat tili tekşiruvi: 2 soniya",
       fitScore: "98% Mos",
-      spotPillTitle: "Amir Temur shoh ko‘chasi · YUN-01",
+      spotPillTitle: "Amir Temur şoh köçasi · YUN-01",
       spotPillSub: "5.2M UZS / oy · Tasdiqlangan",
       rightCardKicker: "JONLI TELEMETRIYA",
       rightCardTitle: "Bilbordlarni 5 daqiqada band qiling.",
-      rightCardDesc: "Maktab va masjid hududi maslahatchisi hamda davlat tili tekshiruviga ega to‘g‘ridan-to‘g‘ri marketpleys.",
-      watchVideo: "Video yo‘riqnomani ko‘rish",
-      registerFree: "Bepul ro‘yxatdan o‘tish",
-      ctaMain: "Bo‘sh joylarni ko‘rish",
-      ctaSecondary: "Interaktiv Video Yo‘riqnoma (Qanday ishlaydi)",
-      pills: ["Tezkor Bronlash", "Tasdiqlangan Oqim", "24/7 Monitoring", "Oilaviy Hudud Himoyasi", "Vositachilarsiz Narx", "Smart Tekshiruv", "Jonli Chat", "Onlayn Shartnoma"]
+      rightCardDesc: "Maktab va masjid hududi maslahatçisi hamda davlat tili tekşiruviga ega töğridan-töğri marketpleys.",
+      watchVideo: "Video yöriqnomani köriş",
+      registerFree: "Bepul röyxatdan ötiş",
+      ctaMain: "Böş joylarni köriş",
+      ctaSecondary: "Interaktiv Video Yöriqnoma (Qanday işlaydi)",
+      pills: ["Tezkor Bronlaş", "Tasdiqlangan Oqim", "24/7 Monitoring", "Oilaviy Hudud Himoyasi", "Vositaçilarsiz Narx", "Smart Tekşiruv", "Jonli Çat", "Onlayn Şartnoma"]
     },
     bento: {
-      videoBadge: "VIDEO VA VIZUAL QO‘LLANMA",
-      step1Title: "QANDAY ISHLAYDI: QADAM-BAQADAM YO‘RIQNOMA",
-      step1Desc: "Bilbordni topish, tekshirish va band qilishni ko‘rsatuvchi 5 qadamli interaktiv video-yo‘riqnomani ochish uchun bosing.",
-      flowTime: "5 daqiqalik o‘z-o‘ziga xizmat",
-      playGuideBtn: "▶ Videoni ochish",
-      card1TopLeft: "SMART MASLAHATCHI TIZIMI",
+      videoBadge: "VIDEO VA VIZUAL QÖLLANMA",
+      step1Title: "QANDAY IŞLAYDI: QADAM-BAQADAM YÖRIQNOMA",
+      step1Desc: "Bilbordni topiş, tekşiriş va band qilişni körsatuvçi 5 qadamli interaktiv video-yöriqnomani oçiş uçun bosing.",
+      flowTime: "5 daqiqalik öz-öziga xizmat",
+      playGuideBtn: "▶ Videoni oçiş",
+      card1TopLeft: "SMART MASLAHATÇI TIZIMI",
       card1TopRight: "AI + HUDUDLAR",
-      step2Title: "TANLASH VA TEKSHIRISH",
-      step2Desc: "Tuman va byudjetingizga mos reklama nuqtasini tanlang hamda banneringizni maktab/masjid hududi va til qoidalariga mosligini tekshiring.",
-      launchPreCheck: "Pre-Check demoni ochish ↗",
+      step2Title: "TANLAŞ VA TEKŞIRIŞ",
+      step2Desc: "Tuman va byudjetingizga mos reklama nuqtasini tanlang hamda banneringizni maktab/masjid hududi va til qoidalariga mosligini tekşiring.",
+      launchPreCheck: "Pre-Check demoni oçiş ↗",
       card2Kicker: "02 · TASDIQLANGAN OQIM",
       calcBadge: "KALKULYATOR",
-      card2Title: "HAR BIR TASDIQLANGAN BILBORD KUNIGA 84 MING YO‘LOVCHINI QAMRAB OLADI",
-      card2Desc: "Kuniga 84 000 yo‘lovchidan do‘koningizga qancha mijoz va ko‘rish kelishini hisoblash uchun bosing.",
-      card2Link: "84K Oqim Kalkulyatorini ochish",
-      step3Kicker: "03 · JONLI TELEMETRIYANI KO‘RISH UCHUN BOSING",
-      step3Title: "JONLI STATISTIKA VA BILDIRISHNOMALAR",
+      card2Title: "HAR BIR TASDIQLANGAN BILBORD KUNIGA 84 MING YÖLOVÇINI QAMRAB OLADI",
+      card2Desc: "Kuniga 84 000 yölovçidan dökoningizga qança mijoz va köriş kelişini hisoblaş uçun bosing.",
+      card2Link: "84K Oqim Kalkulyatorini oçiş",
+      step3Kicker: "03 · JONLI TELEMETRIYANI KÖRIŞ UÇUN BOSING",
+      step3Title: "JONLI STATISTIKA VA BILDIRIŞNOMALAR",
       liveBadgeTitle: "Bilbordingiz faol · CHIL-02",
-      liveBadgeSub: "Kuniga 92 500 ko‘rish · Tasdiqlangan foto-hisobot",
-      step3Desc: "Reklamangiz yoqilgan zahoti tasdiqlovchi hisobot, tugash muddati va kunlik ko‘rishlar statistikasini kabinetingizda kuzating."
+      liveBadgeSub: "Kuniga 92 500 köriş · Tasdiqlangan foto-hisobot",
+      step3Desc: "Reklamangiz yoqilgan zahoti tasdiqlovçi hisobot, tugaş muddati va kunlik körişlar statistikasini kabinetingizda kuzating."
     },
     tunnel: {
       kicker: "INTERAKTIV 3D BILBORDLAR KORIDORI",
       title: "Biznesingiz dvigateli",
-      subtitle: "3D makonni burish uchun sichqonchani harakatlantiring yoki istalgan ekranni bosing",
-      s1TopLeft: "AMIR TEMUR SHOH KO‘CHASI · YUN-01",
+      subtitle: "3D makonni buriş uçun siçqonçani harakatlantiring yoki istalgan ekranni bosing",
+      s1TopLeft: "AMIR TEMUR ŞOH KÖÇASI · YUN-01",
       s1TopRight: "84,000 OQIM/KUN",
       s1Title: "AMIR TEMUR FLAGMAN",
       s1Sub: "6.0m × 3.0m Yoritilgan Bilbord",
       s2Title: "DARXON 3D LED · MIR-01",
-      s2Sub: "Kuniga 96,200 ko‘rishlar",
-      s3Top: "CHILONZOR METRO · CHIL-01",
-      s3Title: "Chilonzor Savdo Markazi",
+      s2Sub: "Kuniga 96,200 körişlar",
+      s3Top: "ÇILONZOR METRO · CHIL-01",
+      s3Title: "Çilonzor Savdo Markazi",
       s3Price: "5.4M UZS / oy",
-      s3Views: "Kuniga 68,400 ko‘rish",
+      s3Views: "Kuniga 68,400 köriş",
       s4Top: "NOVZA 4K LED · CHIL-02",
       s4Title: "Panoramali Magistral LED",
       s4Views: "92,500 oqim/kun",
@@ -97,170 +97,177 @@ window.ADSPOT_I18N = {
       s5Title: "SMART BEKAT",
       s5Views: "39,500 piyodalar oqimi",
       s5Price: "2.9M UZS / oy",
-      s6TopLeft: "SHOTA RUSTAVELI · YAK-01",
+      s6TopLeft: "ŞOTA RUSTAVELI · YAK-01",
       s6TopRight: "TASDIQLANGAN",
       s6Title: "BRT TRANSPORT KORIDORI",
-      s6Views: "Kuniga 48,000 yo‘lovchi",
+      s6Views: "Kuniga 48,000 yölovçi",
       s6Price: "3.4M UZS / oy",
-      s6Hint: "Xaritada ko‘rish uchun bosing",
+      s6Hint: "Xaritada köriş uçun bosing",
       s7Title: "TASHKENT CITY DARVOZASI",
       s7Sub: "89,000 kunlik oqim · 3×6m Yevro-Standart",
       s7Price: "7.2M UZS"
     },
     mapSection: {
       kicker: "INTERAKTIV XARITA VA TASDIQLANGAN KATALOG",
-      title: "Toshkent reklama nuqtalari",
-      subtitle: "Xaritadagi istalgan narx belgisini bosing — ko‘cha ko‘rinishi, o‘lchami va oqimni ko‘rib, darhol band qiling yoki egasiga yozing.",
-      mapHeaderHint: "Toshkent Interaktiv Xaritasi (Ko‘rish uchun istalgan nuqtani bosing)",
-      modeGps: "Jonli Ko‘cha Xaritasi (GPS)",
+      title: "Toşkent reklama nuqtalari",
+      subtitle: "Xaritadagi istalgan narx belgisini bosing — köça körinişi, ölçami va oqimni körib, darhol band qiling yoki egasiga yozing.",
+      mapHeaderHint: "Toşkent Interaktiv Xaritasi (Köriş uçun istalgan nuqtani bosing)",
+      modeGps: "Jonli Köça Xaritasi (GPS)",
       modeVector: "Sxematik Vektor Xarita",
-      allDistricts: "Barcha tumanlar",
-      allFormats: "Barcha formatlar",
+      allDistricts: "Barça tumanlar",
+      allFormats: "Barça formatlar",
       fmtBillboard: "Bilbord 3×6m",
       fmtLed: "Raqamli LED",
       fmtBus: "Avtobus bekati",
       verified: "Tasdiqlangan",
       trafficBadge: "oqim/kun",
       perMonth: "UZS / oy",
-      btnBookNow: "Ushbu joyni band qilish",
-      btnChatOwner: "Egasi bilan chat",
-      streetViewBadge: "KO‘CHA KO‘RINISHI",
-      dayModeBtn: "☀ Kunduzgi ko‘rinish",
-      nightModeBtn: "☾ Tungi LED ko‘rinish",
-      yourAdHere: "SIZNING REKLAMANGIZ SHU YERDA",
-      viewsDayShort: "ko‘rish/kun",
-      catalogHeader: "BARCHA JOYLARNI SOLISHTIRISH JADVALI (ADQUICK STANDARTI)",
-      catalogSub: "Har bir konstruksiyaning kunlik oqimi, oylik ko‘rishlari, CPM narxi va maktab/masjid hududi maqomini bir qarashda solishtiring.",
-      cpmLabel: "CPM (1K ko‘rish)",
-      monthlyViewsLabel: "Oylik ko‘rishlar",
-      safeZoneBadge: "✓ Xavfsiz hudud (Cheklovsiz)",
+      btnBookNow: "Uşbu joyni band qiliş",
+      btnChatOwner: "Egasi bilan çat",
+      streetViewBadge: "KÖÇA KÖRINIŞI",
+      dayModeBtn: "☀ Kunduzgi köriniş",
+      nightModeBtn: "☾ Tungi LED köriniş",
+      yourAdHere: "SIZNING REKLAMANGIZ ŞU YERDA",
+      viewsDayShort: "köriş/kun",
+      catalogHeader: "BARÇA JOYLARNI SOLIŞTIRIŞ JADVALI (ADQUICK STANDARTI)",
+      catalogSub: "Har bir konstruksiyaning kunlik oqimi, oylik körişlari, CPM narxi va maktab/masjid hududi maqomini bir qaraşda soliştiring.",
+      cpmLabel: "CPM (1K köriş)",
+      monthlyViewsLabel: "Oylik körişlar",
+      safeZoneBadge: "✓ Xavfsiz hudud (Çeklovsiz)",
       sensZoneBadge: "⚠ 200m Maktab/Masjid hududi",
-      inspectBtn: "Xaritada ko‘rish"
+      inspectBtn: "Xaritada köriş"
+    },
+    adTypesSection: {
+      kicker: "BARÇA REKLAMA FORMATLARI VA TÖLIQ QÖLLANMA (ADQUICK STANDARTI)",
+      title: "Toshkent Tashqi Reklama Turlari va Ma’lumotnoma",
+      subtitle: "Har bir reklama turining haqiqiy fotosurati, oylik narxi, kunlik oqimi va texnik talablarini köring yoki quyidagi 01–06 bölimlardan birini tanlang.",
+      filterBtn: "Xaritada tanlaş →",
+      jumpHeader: "Bölimga ötiş (Reklama Böyiça Töliq Ma’lumotnoma)"
     },
     bookingSection: {
-      kicker: "BIZNES EGASI · SMART TEKSHIRUV VA BRONLASH",
-      title: "Sana, Smart Maslahatchi va To‘lov",
-      subtitle: "Banneringizni yuklang yoki quyida reklama matnini yozib maktab/masjid hududi va O‘zbek tili imlosini darhol tekshiring.",
+      kicker: "BIZNES EGASI · SMART TEKŞIRUV VA BRONLAŞ",
+      title: "Sana, Smart Maslahatçi va Tölov",
+      subtitle: "Banneringizni yuklang yoki quyida reklama matnini yozib maktab/masjid hududi va Özbek tili imlosini darhol tekşiring.",
       smartScoreLbl: "Smart Reyting",
       step1Lbl: "01. Sana va Muddat",
-      startDate: "Boshlanish sanasi",
+      startDate: "Boşlaniş sanasi",
       duration: "Muddat",
-      dur1m: "1 oy (-10% chegirma)",
+      dur1m: "1 oy (-10% çegirma)",
       dur2w: "2 hafta",
-      dur3m: "3 oy (-20% chegirma)",
-      step2Lbl: "02. Kreativ Yuklash va Smart Maslahatchi",
-      uploadBtn: "Banner yuklash (PNG/JPG)",
+      dur3m: "3 oy (-20% çegirma)",
+      step2Lbl: "02. Kreativ Yuklaş va Smart Maslahatçi",
+      uploadBtn: "Banner yuklaş (PNG/JPG)",
       scen1: "Maktab zonasi maslahati",
-      scen2: "Davlat tili & Vpechatleniye",
+      scen2: "Davlat tili & Vpeçatleniye",
       scen3: "Ideal banner (98%)",
-      scannerLabel: "Jonli Banner Matni Tekshiruvi (O‘zbek imlosi, so‘zlar soni va maktab hududiga mosligini sinash uchun shior yozing):",
-      scannerPlaceholder: "Masalan: Yangi O‘quv Markazi — 30% Chegirma!",
-      scanBtn: "Matnni tekshirish",
-      switchLedBtn: "Tavsiya etilgan LED ekranga o‘tish",
-      step3Lbl: "03. To‘g‘ridan-to‘g‘ri To‘lov",
-      totalLbl: "Jami to‘lov:",
-      payBtn: "Tasdiqlash va reklamani yoqish",
-      viewDashboardLink: "Kabinetda ko‘rish ↓"
+      scannerLabel: "Jonli Banner Matni Tekşiruvi (Özbek imlosi, sözlar soni va maktab hududiga mosligini sinaş uçun şior yozing):",
+      scannerPlaceholder: "Masalan: Yangi Öquv Markazi — 30% Çegirma!",
+      scanBtn: "Matnni tekşiriş",
+      switchLedBtn: "Tavsiya etilgan LED ekranga ötiş",
+      step3Lbl: "03. Töğridan-töğri Tölov",
+      totalLbl: "Jami tölov:",
+      payBtn: "Tasdiqlaş va reklamani yoqiş",
+      viewDashboardLink: "Kabinetda köriş ↓"
     },
     chatSection: {
-      kicker: "INTEGRATSIYALASHGAN MULOQOT MARKAZI VA CHAT PAPKASI",
-      title: "Joy Egasi va 24/7 AI Maslahatchi bilan Chat",
-      subtitle: "Chap tomondagi Chat Papkasidan suhbatni tanlang, narx, o‘lcham, tuman yoki chop etish haqida istalgan savolni yozing.",
-      folderHeader: "CHAT PAPKASI (SUHBATLAR)",
+      kicker: "INTEGRATSIYALAŞGAN MULOQOT MARKAZI VA ÇAT PAPKASI",
+      title: "Joy Egasi va 24/7 AI Maslahatçi bilan Çat",
+      subtitle: "Çap tomondagi Çat Papkasidan suhbatni tanlang, narx, ölçam, tuman yoki çop etiş haqida istalgan savolni yozing.",
+      folderHeader: "ÇAT PAPKASI (SUHBATLAR)",
       onlineNow: "● Hozir onlayn",
       tabOwner: "Joy egasi",
-      tabAi: "24/7 AI Maslahatchi",
+      tabAi: "24/7 AI Maslahatçi",
       designBtn: "Dizayn yordami kerakmi?",
-      placeholder: "Narx, tuman, o‘lcham, chop etish yoki chegirma haqida so‘rang...",
-      send: "Yuborish"
+      placeholder: "Narx, tuman, ölçam, çop etiş yoki çegirma haqida sörang...",
+      send: "Yuboriş"
     },
     portalsSection: {
-      kicker: "BARCHA FOYDALANUVCHI ROLLARI (INTERAKTIV KABINETLAR)",
+      kicker: "BARÇA FOYDALANUVÇI ROLLARI (INTERAKTIV KABINETLAR)",
       title: "Biznes, Joy Egasi va Admin Kabinetlari",
       tabBusiness: "Biznes: Reklama Natijalari",
-      tabOwner: "Joy Egasi: Daromad & Joy Qo‘shish",
-      tabAdmin: "Admin: Moderatsiya & Tasdiqlash",
+      tabOwner: "Joy Egasi: Daromad & Joy Qöşiş",
+      tabAdmin: "Admin: Moderatsiya & Tasdiqlaş",
       liveLbl: "Faol",
-      pausedLbl: "To‘xtatilgan",
-      impressionsLbl: "ko‘rishlar",
+      pausedLbl: "Töxtatilgan",
+      impressionsLbl: "körişlar",
       footTrafficLbl: "mijozlar oqimi",
-      bizHeaderInfo: "Faol tashqi reklama kampaniyalari · Holatni boshqarish, muddatni uzaytirish va foto-hisobot",
-      bizAddAnotherBtn: "+ Yana joy band qilish",
-      btnPauseAd: "⏸ Vaqtincha to‘xtatish",
-      btnResumeAd: "▶ Qayta yoqish",
-      btnExtend7d: "+ 7 kunga uzaytirish",
-      btnInspectMap: "Xaritada ko‘rish →",
+      bizHeaderInfo: "Faol taşqi reklama kampaniyalari · Holatni boşqariş, muddatni uzaytiriş va foto-hisobot",
+      bizAddAnotherBtn: "+ Yana joy band qiliş",
+      btnPauseAd: "⏸ Vaqtinça töxtatiş",
+      btnResumeAd: "▶ Qayta yoqiş",
+      btnExtend7d: "+ 7 kunga uzaytiriş",
+      btnInspectMap: "Xaritada köriş →",
       ownerEarningsLbl: "Joy egasining oylik daromadi",
-      ownerWithdrawBtn: "Didox E-Hisobvaraq orqali yechish →",
+      ownerWithdrawBtn: "Didox E-Hisobvaraq orqali yeçiş →",
       ownerStructLbl: "6 ta tasdiqlangan konstruksiya · 92% bandlik",
-      activeBookingsLbl: "Faol shartnomalar",
-      campaignsCount: "ta shartnoma",
-      nextPayoutLbl: "Didox orqali navbatdagi to‘lov: Ertaga · 94% bandlik",
-      listNewTitle: "Yangi Bilbord yoki LED Ekran Qo‘shish",
-      listNewBtn: "+ Joy qo‘shish",
-      ownerTableHeader: "Sizning konstruksiyalaringiz — Narx va holatni jonli boshqarish",
-      statusAvailable: "Bo‘sh (Faol)",
+      activeBookingsLbl: "Faol şartnomalar",
+      campaignsCount: "ta şartnoma",
+      nextPayoutLbl: "Didox orqali navbatdagi tölov: Ertaga · 94% bandlik",
+      listNewTitle: "Yangi Bilbord yoki LED Ekran Qöşiş",
+      listNewBtn: "+ Joy qöşiş",
+      ownerTableHeader: "Sizning konstruksiyalaringiz — Narx va holatni jonli boşqariş",
+      statusAvailable: "Böş (Faol)",
       statusMaint: "Profilaktika",
-      adminQueueBadge: "Joyni tasdiqlash navbati",
+      adminQueueBadge: "Joyni tasdiqlaş navbati",
       adminQueueTitle: "3 ta yangi LED ekran (Sergeli)",
-      adminQueueDesc: "Oqim auditi va GPS koordinatalar tekshirildi.",
+      adminQueueDesc: "Oqim auditi va GPS koordinatalar tekşirildi.",
       adminModBadge: "Kreativ moderatsiyasi",
       adminModTitle: "98.4% Avto-Tasdiqlangan",
-      adminModDesc: "Smart Maslahatchi bugun 142 ta bannerni tekshirdi.",
+      adminModDesc: "Smart Maslahatçi bugun 142 ta bannerni tekşirdi.",
       adminSlaBadge: "Bahslar va SLA",
-      adminSlaTitle: "0 ta ochiq murojaat",
-      adminSlaDesc: "100% o‘rnatish foto-hisoboti tasdiqlangan.",
-      adminTableHeader: "Jonli Admin Moderatsiya va Tasdiqlash Navbati — Tasdiqlash yoki qayta yo‘naltirish",
-      btnApprove: "✓ Tasdiqlash",
-      btnReject: "✕ Tuzatish so‘rash",
+      adminSlaTitle: "0 ta oçiq murojaat",
+      adminSlaDesc: "100% örnatiş foto-hisoboti tasdiqlangan.",
+      adminTableHeader: "Jonli Admin Moderatsiya va Tasdiqlaş Navbati — Tasdiqlaş yoki qayta yönaltiriş",
+      btnApprove: "✓ Tasdiqlaş",
+      btnReject: "✕ Tuzatiş söraş",
       badgeApproved: "✓ Tasdiqlandi va Faol",
-      badgeRejected: "✕ Tuzatishga yuborildi"
+      badgeRejected: "✕ Tuzatişga yuborildi"
     },
     teamSection: {
       kicker: "BIZ HAQIMIZDA",
-      title: "TOSHKENT UCHUN YARATUVCHI JAMOA",
-      subtitle: "Toshkent tashqi reklama bozorini shaffof onlayn marketpleysga aylantirayotgan asoschilar.",
+      title: "TOŞKENT UÇUN YARATUVÇI JAMOA",
+      subtitle: "Toşkent taşqi reklama bozorini şaffof onlayn marketpleysga aylantirayotgan asosçilar.",
       m1Name: "Laylo Atajanova",
       m1Role: "Founder · Backend Architect",
-      m1Bio: "Platforma yadrosi, Smart Advisory tekshiruv algoritmlari va to‘g‘ridan-to‘g‘ri bronlash arxitekturasi asoschisi.",
+      m1Bio: "Platforma yadrosi, Smart Advisory tekşiruv algoritmlari va töğridan-töğri bronlaş arxitekturasi asosçisi.",
       m2Name: "Nizamatdinova Jasmina",
       m2Role: "CEO · UX/UI Lead",
       m2Bio: "Mahsulot strategiyasi, interaktiv 3D makon tajribasi va zamonaviy vizual dizayn tizimi rahbari."
     },
     footer: {
-      subBrand: "TOSHKENT REKLAMA MARKETPLEYSI",
-      tagline: "Toshkentning №1 o‘z-o‘ziga xizmat ko‘rsatuvchi tashqi reklama va bilbord bronlash marketpleysi.",
-      foundersLbl: "Asoschilar: Laylo Atajanova & Nizamatdinova Jasmina",
+      subBrand: "TOŞKENT REKLAMA MARKETPLEYSI",
+      tagline: "Toşkentning №1 öz-öziga xizmat körsatuvçi taşqi reklama va bilbord bronlaş marketpleysi.",
+      foundersLbl: "Asosçilar: Laylo Atajanova & Nizamatdinova Jasmina",
       backendReady: "Python 3 + SQLite Tayyor",
       apiDocs: "Backend API Konsoli (/api/docs) ↗",
-      rights: "Toshkent Tashqi Reklama Marketpleysi · UZ · RU · EN"
+      rights: "Toşkent Taşqi Reklama Marketpleysi · UZ · RU · EN"
     },
     modals: {
-      authKicker: "SHAXSIY KABINET VA TEZKOR BRONLASH",
-      authTitle: "Ro‘yxatdan O‘tish va Joy Band Qilish",
+      authKicker: "ŞAXSIY KABINET VA TEZKOR BRONLAŞ",
+      authTitle: "Röyxatdan Ötiş va Joy Band Qiliş",
       authNameLbl: "Ism va Familiyangiz",
       authCompanyLbl: "Biznes / Brend nomi",
       authPhoneLbl: "Telefon raqamingiz",
-      authRoleLbl: "Foydalanuvchi roli",
-      authRoleBiz: "Biznes Egasi (Reklama beruvchi)",
+      authRoleLbl: "Foydalanuvçi roli",
+      authRoleBiz: "Biznes Egasi (Reklama beruvçi)",
       authRoleOwner: "Bilbord / Joy Egasi",
-      authSpotLbl: "Band qilish uchun tanlangan joy:",
-      authSubmitBtn: "Ro‘yxatdan o‘tish va Bronlashga o‘tish →",
-      guideKicker: "ADSPOT INTERAKTIV QO‘LLANMA VA KALKULYATOR",
-      guideTitle: "AdSpot Qanday Ishlaydi — Interaktiv Video va Hisoblagich",
-      gtab0: "▶ Video Yo‘riqnoma (5 Qadam)",
-      gtab1: "01 · Tanlash va Tekshirish Demo",
+      authSpotLbl: "Band qiliş uçun tanlangan joy:",
+      authSubmitBtn: "Röyxatdan ötiş va Bronlaşga ötiş →",
+      guideKicker: "ADSPOT INTERAKTIV QÖLLANMA VA KALKULYATOR",
+      guideTitle: "AdSpot Qanday Işlaydi — Interaktiv Video va Hisoblagiç",
+      gtab0: "▶ Video Yöriqnoma (5 Qadam)",
+      gtab1: "01 · Tanlaş va Tekşiriş Demo",
       gtab2: "02 · 84K Kunlik Oqim Kalkulyatori",
-      gtab3: "03 · Jonli Ko‘rishlar Statistikasi",
+      gtab3: "03 · Jonli Körişlar Statistikasi",
       addSpotKicker: "JOY EGASI KABINETI · SQLITE BAZA",
-      addSpotTitle: "Yangi Toshkent Reklama Nuqtasini Qo‘shish",
+      addSpotTitle: "Yangi Toşkent Reklama Nuqtasini Qöşiş",
       addSpotNameLbl: "Bilbord / Ekran nomi",
       addSpotDistLbl: "Tuman",
       addSpotFmtLbl: "Format",
-      addSpotStreetLbl: "Ko‘cha va Mo‘ljal",
+      addSpotStreetLbl: "Köça va Möljal",
       addSpotPriceLbl: "Oylik narx (UZS)",
       addSpotTrafficLbl: "Kunlik oqim",
-      addSpotSubmitBtn: "Bazaga saqlash va Xaritada e’lon qilish"
+      addSpotSubmitBtn: "Bazaga saqlaş va Xaritada e’lon qiliş"
     }
   },
 
@@ -397,6 +404,13 @@ window.ADSPOT_I18N = {
       sensZoneBadge: "⚠ Зона 200м (Школа/Мечеть)",
       inspectBtn: "Показать на карте"
     },
+    adTypesSection: {
+      kicker: "ВСЕ ФОРМАТЫ НАРУЖНОЙ РЕКЛАМЫ И ПОЛНЫЙ ГИД (СТАНДАРТ ADQUICK)",
+      title: "Виды наружной рекламы Ташкента и Справочник",
+      subtitle: "Изучите реальные фотографии конструкций, цены, охват и технические характеристики каждого формата или выберите раздел 01–06 ниже.",
+      filterBtn: "Смотреть на карте →",
+      jumpHeader: "Перейти к разделу (Полный справочник по наружной рекламе)"
+    },
     bookingSection: {
       kicker: "ВЛАДЕЛЕЦ БИЗНЕСА · УМНАЯ ПРОВЕРКА И БРОНИРОВАНИЕ",
       title: "Даты, Умный Советник и Оплата",
@@ -414,7 +428,7 @@ window.ADSPOT_I18N = {
       scen2: "Госязык и «Впечатление»",
       scen3: "Идеальный макет (98%)",
       scannerLabel: "Живой сканер текста баннера (Введите слоган для проверки узбекской орфографии, длины текста и школьных зон):",
-      scannerPlaceholder: "Например: Yangi O‘quv Markazi — Скидка 30%!",
+      scannerPlaceholder: "Например: Yangi Öquv Markazi — 30% Çegirma!",
       scanBtn: "Проверить текст",
       switchLedBtn: "Переключить на рекомендованный LED-экран",
       step3Lbl: "03. Прямая оплата",
@@ -657,6 +671,13 @@ window.ADSPOT_I18N = {
       sensZoneBadge: "⚠ 200m School/Mosque Zone",
       inspectBtn: "Inspect on Map"
     },
+    adTypesSection: {
+      kicker: "ALL OUTDOOR AD FORMATS & COMPLETE GUIDE (ADQUICK STANDARD)",
+      title: "Types of Outdoor Advertising in Tashkent",
+      subtitle: "Explore real street photography, pricing, traffic, and technical specs for every outdoor ad format, or jump to any guide section (01–06) below.",
+      filterBtn: "Filter on Map →",
+      jumpHeader: "Jump to Section (Complete Billboard & OOH Guide)"
+    },
     bookingSection: {
       kicker: "BUSINESS OWNER · SMART CHECK & DIRECT BOOKING",
       title: "Select Dates, Smart Pre-Check & Checkout",
@@ -674,7 +695,7 @@ window.ADSPOT_I18N = {
       scen2: "State Language & Clarity",
       scen3: "Optimal Creative (98%)",
       scannerLabel: "Live Banner Text Scanner (Type your ad slogan to test Uzbek orthography, word count & school-zone fit):",
-      scannerPlaceholder: "e.g., Yangi O‘quv Markazi — 30% Chegirma!",
+      scannerPlaceholder: "e.g., Yangi Öquv Markazi — 30% Çegirma!",
       scanBtn: "Scan Text",
       switchLedBtn: "Switch to Recommended LED Screen",
       step3Lbl: "03. Direct Payment Gateway",
@@ -791,15 +812,16 @@ window.ADSPOT_I18N = {
 window.ADSPOT_SPOTS = [
   {
     id: "CHIL-01",
+    photo: "assets/photos/CHIL-01.jpg",
     district: "Chilanzar",
-    districtLabel: { uz: "Chilonzor", ru: "Чиланзар", en: "Chilanzar" },
+    districtLabel: { uz: "Çilonzor", ru: "Чиланзар", en: "Chilanzar" },
     title: {
-      uz: "Chilonzor Metro Chorrahasi",
+      uz: "Çilonzor Metro Çorrahasi",
       ru: "Перекресток метро Чиланзар",
       en: "Chilanzar Metro Junction"
     },
     street: {
-      uz: "Bunyodkor shoh ko‘chasi · 103-maktab yonida (110m)",
+      uz: "Bunyodkor şoh köçasi · 103-maktab yonida (110m)",
       ru: "Пр. Бунёдкор · Рядом со школой №103 (110м)",
       en: "Bunyodkor Ave · 110m from School #103"
     },
@@ -823,15 +845,16 @@ window.ADSPOT_SPOTS = [
   },
   {
     id: "CHIL-02",
+    photo: "assets/photos/CHIL-02.jpg",
     district: "Chilanzar",
-    districtLabel: { uz: "Chilonzor", ru: "Чиланзар", en: "Chilanzar" },
+    districtLabel: { uz: "Çilonzor", ru: "Чиланзар", en: "Chilanzar" },
     title: {
       uz: "Bunyodkor Panoramali LED Ekran",
       ru: "Панорамный LED Экран Бунёдкор",
       en: "Bunyodkor Panoramic LED Screen"
     },
     street: {
-      uz: "Novza metro ro‘parasi · Tijorat magistrali",
+      uz: "Novza metro röparasi · Tijorat magistrali",
       ru: "Напротив метро Новза · Магистраль",
       en: "Opposite Novza Metro · Commercial Artery"
     },
@@ -843,7 +866,7 @@ window.ADSPOT_SPOTS = [
     owner: "OchiqShahar Digital",
     sensitiveZone: false,
     sensitiveNote: {
-      uz: "Erkin tijorat hududi — kechki oqim +32% yuqori.",
+      uz: "Erkin tijorat hududi — keçki oqim +32% yuqori.",
       ru: "Коммерческая зона без ограничений — +32% вечером.",
       en: "Unrestricted commercial artery — +32% evening engagement."
     },
@@ -855,10 +878,11 @@ window.ADSPOT_SPOTS = [
   },
   {
     id: "YUN-01",
+    photo: "assets/photos/YUN-01.jpg",
     district: "Yunusabad",
     districtLabel: { uz: "Yunusobod", ru: "Юнусабад", en: "Yunusabad" },
     title: {
-      uz: "Amir Temur Shoh Ko‘chasi (Minor)",
+      uz: "Amir Temur Şoh Köçasi (Minor)",
       ru: "Проспект Амира Темура (Минор)",
       en: "Amir Temur Avenue (Minor)"
     },
@@ -887,6 +911,7 @@ window.ADSPOT_SPOTS = [
   },
   {
     id: "YUN-02",
+    photo: "assets/photos/YUN-02.jpg",
     district: "Yunusabad",
     districtLabel: { uz: "Yunusobod", ru: "Юнусабад", en: "Yunusabad" },
     title: {
@@ -895,7 +920,7 @@ window.ADSPOT_SPOTS = [
       en: "Mega Planet Smart Bus Shelter"
     },
     street: {
-      uz: "Ahmad Donish ko‘chasi · Piyodalar zonasi",
+      uz: "Ahmad Doniş köçasi · Piyodalar zonasi",
       ru: "Ул. Ахмада Дониша · Пешеходный трафик",
       en: "Ahmad Donish St · High Foot-Traffic Zone"
     },
@@ -907,7 +932,7 @@ window.ADSPOT_SPOTS = [
     owner: "AvtoBekat Media",
     sensitiveZone: false,
     sensitiveNote: {
-      uz: "Mahalliy do‘kon va kafelar uchun eng qulay nuqta.",
+      uz: "Mahalliy dökon va kafelar uçun eng qulay nuqta.",
       ru: "Отлично для локальных магазинов и кофеен.",
       en: "Ideal eye-level showcase for local shops & cafes."
     },
@@ -919,10 +944,11 @@ window.ADSPOT_SPOTS = [
   },
   {
     id: "MIR-01",
+    photo: "assets/photos/MIR-01.jpg",
     district: "Mirzo Ulugbek",
-    districtLabel: { uz: "Mirzo Ulug‘bek", ru: "Мирзо-Улугбек", en: "Mirzo Ulugbek" },
+    districtLabel: { uz: "Mirzo Uluğbek", ru: "Мирзо-Улугбек", en: "Mirzo Ulugbek" },
     title: {
-      uz: "Mustaqillik Shoh Ko‘chasi (Darxon)",
+      uz: "Mustaqillik Şoh Köçasi (Darxon)",
       ru: "Проспект Мустакиллик (Дархан)",
       en: "Mustaqillik Avenue (Darkhan)"
     },
@@ -951,15 +977,16 @@ window.ADSPOT_SPOTS = [
   },
   {
     id: "YAK-01",
+    photo: "assets/photos/YAK-01.jpg",
     district: "Yakkasaroy",
     districtLabel: { uz: "Yakkasaroy", ru: "Яккасарай", en: "Yakkasaroy" },
     title: {
-      uz: "Shota Rustaveli BRT Bekati",
+      uz: "Şota Rustaveli BRT Bekati",
       ru: "Остановка Шота Руставели BRT",
       en: "Shota Rustaveli BRT Shelter"
     },
     street: {
-      uz: "Kofe-shoplar xiyoboni va BRT avtobus yo‘lagi",
+      uz: "Kofe-şoplar xiyoboni va BRT avtobus yölagi",
       ru: "Аллея кофеен и выделенная полоса BRT",
       en: "Cafe Boulevard & Dedicated BRT Corridor"
     },
@@ -971,7 +998,7 @@ window.ADSPOT_SPOTS = [
     owner: "AvtoBekat Media",
     sensitiveZone: false,
     sensitiveNote: {
-      uz: "4 daqiqalik kontakt vaqti — QR-kod aksiyalari uchun ideal.",
+      uz: "4 daqiqalik kontakt vaqti — QR-kod aksiyalari uçun ideal.",
       ru: "4 минуты ожидания — отлично для QR-акций.",
       en: "4-minute commuter dwell time—great for QR promos."
     },
@@ -980,6 +1007,165 @@ window.ADSPOT_SPOTS = [
     lng: 69.2572,
     mapX: 385,
     mapY: 310
+  }
+];
+
+/* ==========================================================================
+   AdQuick-Style Outdoor Advertising Formats & Educational Guide (UZ / RU / EN)
+   ========================================================================== */
+window.ADSPOT_AD_TYPES = [
+  {
+    id: "billboard",
+    photo: "assets/photos/YUN-01.jpg",
+    badge: { uz: "Klassik Tashqi Reklama", ru: "Классическая наружная реклама", en: "Billboard Advertising" },
+    title: {
+      uz: "Magistral Bilbordlar (3×6m va Prizmatron)",
+      ru: "Магистральные Билборды (3×6м и Призматрон)",
+      en: "Roadside Billboards (3×6m & Prismavision)"
+    },
+    priceRange: "4.8M – 6.9M UZS / oy",
+    avgTraffic: "68,000 – 84,000 / kun",
+    specs: "6.0m × 3.0m · Vinil 510g · Tungi LED projektor",
+    desc: {
+      uz: "Toshkentning eng gavjum chorrahalari (Amir Temur, Chilonzor, Buyuk Ipak Yöli) böylab 24/7 doimiy brend qamrovi. Yangi dökon, klinika va öquv markazlari uchun eng yuqori ishonch.",
+      ru: "Круглосуточный 100% охват потока на главных проспектах Ташкента (Амир Темур, Чиланзар). Идеально для запуска брендов, клиник, застройщиков и учебных центров.",
+      en: "24/7 exclusive brand dominance along Tashkent's busiest arteries (Amir Temur, Chilanzar). Best for brand awareness, retail openings, clinics, and real estate."
+    }
+  },
+  {
+    id: "led",
+    photo: "assets/photos/MIR-01.jpg",
+    badge: { uz: "Raqamli DOOH Ekranlar", ru: "Цифровые DOOH Экраны", en: "Digital Out-of-Home (DOOH)" },
+    title: {
+      uz: "4K & 3D Bukilgan Raqamli LED Ekranlar",
+      ru: "4K и 3D Угловые Цифровые LED Экраны",
+      en: "4K & 3D Curved Digital LED Screens"
+    },
+    priceRange: "7.8M – 8.9M UZS / oy",
+    avgTraffic: "92,500 – 96,200 / kun",
+    specs: "8×4m & 9×4.5m · 10s Video Slot · 15 daqiqada efir",
+    desc: {
+      uz: "Chopar va bosmaxona xarajatisiz 15 daqiqada video-rolikni efirga uzating! Bunyodkor va Darxon chorrahalarida kechki vaqtda +32% yuqori e’tibor tortadi.",
+      ru: "Запуск видеоролика за 15 минут без затрат на печать винила! Яркие 4K и 3D экраны на Бунёдкоре и в Дархане привлекают на +32% больше внимания вечером.",
+      en: "Go live in 15 minutes with zero printing costs! Dynamic 10-second full-motion 4K & 3D video slots on Bunyodkor and Darkhan intersections capture +32% higher recall."
+    }
+  },
+  {
+    id: "bus_stop",
+    photo: "assets/photos/YUN-02.jpg",
+    badge: { uz: "Piyodalar va Bekatlar", ru: "Сити-формат на остановках", en: "Street Furniture & Transit" },
+    title: {
+      uz: "Smart Avtobus Bekatlari (CityLight 1.2×1.8m)",
+      ru: "Умные Остановки и Ситилайты (1.2×1.8м)",
+      en: "Smart Bus Shelters & CityLight Panels"
+    },
+    priceRange: "2.4M – 3.4M UZS / oy",
+    avgTraffic: "39,500 – 48,000 / kun",
+    specs: "1.2m × 1.8m · Ichki LED yoritish · 4 daqiqa kontakt",
+    desc: {
+      uz: "Kichik va örta biznes (kofeshoplar, kurslar, salonlar) uchun eng hamyonbop start! Yölovchilar avtobus kutish vaqtida (4 daqiqa) QR-kodni bemalol skanerlaydi.",
+      ru: "Лучший бюджетный старт для кафе, учебных курсов и локального бизнеса! Пассажиры ждут автобус 4 минуты на уровне глаз и активно сканируют QR-коды.",
+      en: "The most affordable entry point for cafes, learning centers, and local retail. Commuters stand at eye level for 4 minutes—ideal for QR codes and promo offers."
+    }
+  },
+  {
+    id: "metro_facade",
+    photo: "assets/photos/facade.jpg",
+    badge: { uz: "Metro va Bino Fasadlari", ru: "Метро и Брандмауэры", en: "Metro & Building Facades" },
+    title: {
+      uz: "Metro Laytbokslari va Bino Mega-Bannerlari",
+      ru: "Лайтбоксы в Метро и Фасадные Мега-Баннеры",
+      en: "Tashkent Metro Lightboxes & Building Wraps"
+    },
+    priceRange: "3.9M – 14.5M UZS / oy",
+    avgTraffic: "75,000 – 130,000 / kun",
+    specs: "Metro laytboks & 15×25m Bino fasadi (Brandmauer)",
+    desc: {
+      uz: "Toshkent metrosining gavjum bekatlaridagi yoritilgan panellar hamda markaziy binolar devoridagi ulkan brendmauerlar — maksimal nufuz va keng qamrov.",
+      ru: "Световые панели на станциях Ташкентского метрополитена и гигантские брандмауэры на фасадах зданий в центре города для максимального престижа бренда.",
+      en: "High-dwell backlit panels inside ornate Tashkent Metro stations and giant building facade wraps across central avenues for landmark brand prestige."
+    }
+  }
+];
+
+window.ADSPOT_GUIDE_TOPICS = [
+  {
+    num: "01",
+    title: {
+      uz: "Tashqi reklama (OOH) nima va u qanday ishlaydi?",
+      ru: "Что такое наружная реклама (OOH) в Ташкенте?",
+      en: "What Is Billboard & OOH Advertising?"
+    },
+    body: {
+      uz: "Tashqi reklama (Out-of-Home / OOH) — bu bilbordlar, raqamli LED ekranlar, avtobus bekatlari va metroda joylashtiriladigan yirik formatli vizual reklama. Internet reklamasidan farqli ölaroq, köcha bilbordini bloklab yoki öткаzib yuborib bölmaydi: u har kuni 84,000+ haydovchi va piyodalar köz öngida turadi.",
+      ru: "Наружная реклама (Out-of-Home / OOH) — это реклама на уличных билбордах, цифровых LED-экранах, остановках и в метро. В отличие от таргета в соцсетях, билборд нельзя пролистнуть или заблокировать AdBlock-ом: он работает 24/7 и дает самую низкую стоимость 1 000 контактов (CPM от 2 060 UZS).",
+      en: "Out-of-Home (OOH) advertising displays large-format brand messages on elevated highway billboards, 4K digital LED screens, bus shelters, and metro stations. Unlike mobile ads, billboards cannot be skipped or ad-blocked—delivering 24/7 physical presence at the lowest CPM (from 2,060 UZS per 1,000 views)."
+    }
+  },
+  {
+    num: "02",
+    title: {
+      uz: "Toshkentda tashqi reklamaning qanday turlari bor?",
+      ru: "Виды наружной рекламы и форматы конструкций",
+      en: "Types of Billboard & Outdoor Advertising"
+    },
+    body: {
+      uz: "AdSpot katalogida 4 ta asosiy format mavjud: 1) Klassik 3×6m bilbordlar (4.8M–6.9M UZS) — uzoq muddatli brend tanilishi uchun; 2) 4K va 3D LED ekranlar (7.8M–8.9M UZS) — tezkor video-aksiyalar uchun; 3) Avtobus bekatlari CityLight (2.4M–3.4M UZS) — piyodalar va QR-kodlar uchun; 4) Metro va bino fasadlari.",
+      ru: "В каталоге AdSpot доступны 4 ключевых формата: 1) Классические щиты 3×6м (4.8M–6.9M UZS) для широкого охвата; 2) 4K и 3D LED-экраны (7.8M–8.9M UZS) для динамичных видеороликов; 3) Остановки CityLight (2.4M–3.4M UZS) для пешеходов; 4) Лайтбоксы в метро и брандмауэры.",
+      en: "AdSpot offers 4 core formats in Tashkent: 1) Classic 3×6m static billboards (4.8M–6.9M UZS) for 24/7 corridor dominance; 2) 4K & 3D LED screens (7.8M–8.9M UZS) for instant video promos; 3) Backlit Bus Shelters (2.4M–3.4M UZS) for eye-level pedestrian traffic; 4) Metro lightboxes & building wraps."
+    }
+  },
+  {
+    num: "03",
+    title: {
+      uz: "Bilbord narxlari qancha va CPM qanday hisoblanadi?",
+      ru: "Сколько стоит реклама на билборде в Ташкенте?",
+      en: "How Much Does Billboard Advertising Cost?"
+    },
+    body: {
+      uz: "An’anaviy agentliklar +25%–35% vositachi ustamasi qöshsa, AdSpot’da siz töğridan-töğri joy egasi narxida bron qilasiz: bekatlar 2.4M UZS dan, 3×6m bilbordlar 4.8M UZS dan, 4K LED ekranlar 7.8M UZS dan boshlanadi. 14 kunlik Sprint (55% narx) yoki 3 oylik paket (-20% chegirma) ham mavjud.",
+      ru: "Офлайн-агентства добавляют 25%–35% комиссии посредника. На AdSpot вы бронируете по прямой цене владельца: остановки от 2.4M UZS/мес, щиты 3×6м от 4.8M UZS/мес, 4K LED-экраны от 7.8M UZS/мес. Доступны спринты на 14 дней и скидки до -20% при брони на 3 месяца.",
+      en: "While offline agencies add 25%–35% middleman markups, AdSpot lists direct space-owner rates: Bus Shelters start at 2.4M UZS/mo, 3×6m Billboards at 4.8M UZS/mo, and 4K LED Screens at 7.8M UZS/mo. You can also book 14-day sprints or save 20% on 3-month campaigns."
+    }
+  },
+  {
+    num: "04",
+    title: {
+      uz: "Yangi Özbek lotin alifbosi (Ö, Ğ, Ş, Ç) va ÖRQ-776 Qonuni",
+      ru: "Закон «О рекламе» ЗРУ-776 и новый узбекский алфавит (Ö, Ğ, Ş, Ç)",
+      en: "Law ZRU-776 & Reformed Uzbek Alphabet (Ö, Ğ, Ş, Ç)"
+    },
+    body: {
+      uz: "ÖRQ-776 Qonuniga binoan tashqi reklama davlat tilida bexato bölishi hamda maktab/masjidlardan 200m masofa qoidasiga amal qilishi shart. AdSpot skaneri takomillashtirilgan özbek lotin harflarini (O‘→Ö, G‘→Ğ, Sh→Ş, Ch→Ç) va 60 km/s tezlikda öqilishni (≤7 söz) 2 soniyada tekshiradi.",
+      ru: "По Закону РУз «О рекламе» (ЗРУ-776) макет должен содержать грамотный текст на госязыке и соблюдать 200-метровую зону вокруг школ и мечетей. Сканер AdSpot автоматически проверяет усовершенствованный узбекский алфавит (O‘→Ö, G‘→Ğ, Sh→Ş, Ch→Ç) и длину слогана за 2 секунды.",
+      en: "Under Uzbekistan's Advertising Law ZRU-776, banners must use accurate Uzbek state language and respect 200m school/mosque buffer zones. AdSpot's Smart Scanner automatically checks for the reformed Uzbek Latin letters (O‘→Ö, G‘→Ğ, Sh→Ş, Ch→Ç) and the 7-word highway readability rule."
+    }
+  },
+  {
+    num: "05",
+    title: {
+      uz: "Raqamli LED ekran va oddiy bilbord — qaysi birini tanlash kerak?",
+      ru: "Цифровой LED-экран или классический билборд — что выбрать?",
+      en: "Digital LED Screens vs. Static Billboards"
+    },
+    body: {
+      uz: "Agar sizga 15 daqiqa ichida tezkor aksiya, bayram chegirmasi yoki dinamik video kerak bölsa — Raqamli 4K LED ekranni (CHIL-02 yoki MIR-01) tanlang (vinil chop etish xarajati yöq!). Agar brendingiz 100% vaqt davomida bitta nuqtada yakka hukmronlik qilishini xohlasangiz — 3×6m bilbord ideal.",
+      ru: "Если нужно запустить акцию за 15 минут без затрат на печать винила и менять ролик хоть каждый день — выбирайте 4K LED экран (CHIL-02 или MIR-01). Если вам нужно 100% эксклюзивное присутствие без ротации с другими брендами — выбирайте классический щит 3×6м.",
+      en: "Choose a 4K Digital LED Screen (CHIL-02 or MIR-01) if you want to launch in 15 minutes with zero vinyl printing cost and full-motion video. Choose a Classic 3×6m Billboard (YUN-01 or CHIL-01) if you want 100% exclusive share-of-voice with no rotation."
+    }
+  },
+  {
+    num: "06",
+    title: {
+      uz: "Nima uchun bizneslar AdSpot platformasini tanlaydi?",
+      ru: "Почему компании выбирают AdSpot вместо офлайн-агентств?",
+      en: "Why Choose AdSpot for Outdoor Advertising?"
+    },
+    body: {
+      uz: "1) 14 kunlik qönğiroqlar örniga 5 daqiqada onlayn bronlash; 2) 0% agentlik ustamasi (3 barobar tejamkor); 3) Har bir bilbordning haqiqiy köcha fotosurati, GPS xaritasi va 84K kunlik oqim kalkulyatori; 4) Payme, Click Up va rasmiy Didox E-Hisobvaraq (ЭДО) orqali xavfsiz tölov.",
+      ru: "1) Онлайн-бронь за 5 минут вместо 14 дней звонков; 2) Прямые цены без 30% агентской накрутки; 3) Реальные фотографии каждой конструкции, GPS-карта и калькулятор 84К трафика; 4) Оплата через Payme, Click Up и официальный ЭДО Didox.",
+      en: "1) Book online in 5 minutes instead of 14 days of phone calls; 2) Save 25%–35% with direct owner pricing; 3) Inspect real street photos, GPS coordinates, and 84K daily commuter ROI before paying; 4) Instant checkout via Payme, Click Up, or official B2B Didox E-Invoice."
+    }
   }
 ];
 
@@ -995,15 +1181,15 @@ window.ADSPOT_ADVISORY_PRESETS = {
       en: "Advisory Tip: Close to a School Zone (110m)"
     },
     quote: {
-      uz: "«Tavsiya: Ushbu joy maktab hududiga yaqin. Kreativingizni oilaviy mahsulotlar liniyasiga moslashtiring yoki yuqori e’tibor uchun Bunyodkor shoh ko‘chasidagi Raqamli LED ekranimizni tanlang.»",
+      uz: "«Tavsiya: Uşbu joy maktab hududiga yaqin. Kreativingizni oilaviy mahsulotlar liniyasiga moslaştiring yoki yuqori e’tibor uçun Bunyodkor şoh köçasidagi Raqamli LED ekranimizni tanlang.»",
       ru: "«Совет: Эта точка рядом со школой. Адаптируйте макет под семейную линейку или выберите наш цифровой экран на пр. Бунёдкор для более высокого охвата.»",
       en: "“Tip: This spot is close to a school zone. Consider adjusting your creative to focus on family-friendly product lines, or select our digital screen on Bunyodkor Avenue for higher engagement.”"
     },
     checks: {
       uz: [
         { ok: false, text: "Zona: Maktab 110m" },
-        { ok: true, text: "Davlat tili: To‘g‘ri" },
-        { ok: true, text: "Vpechatleniye: Toza" }
+        { ok: true, text: "Davlat tili: Töğri" },
+        { ok: true, text: "Vpeçatleniye: Toza" }
       ],
       ru: [
         { ok: false, text: "Зона: Школа 110м" },
@@ -1020,29 +1206,29 @@ window.ADSPOT_ADVISORY_PRESETS = {
   grammar_clutter: {
     score: 64,
     headline: {
-      uz: "Davlat tili imlosi va «Vpechatleniye» yordamchisi",
-      ru: "Проверка госязыка и визуальной чистоты («Впечатление»)",
-      en: "State Language & Visual Cleanliness («Vpechatleniye»)"
+      uz: "Yangi Özbek alifbosi (Ö, Ğ, Ş, Ç) va «Vpeçatleniye» yordamçisi",
+      ru: "Проверка нового узбекского алфавита (Ö, Ğ, Ş, Ç) и чистоты макета",
+      en: "Reformed Uzbek Alphabet (Ö, Ğ, Ş, Ç) & Readability Check"
     },
     quote: {
-      uz: "«Tavsiya: ‘O‘zbekiston’ va ‘Do‘kon’ so‘zlarida standart apostrofni qo‘llang hamda matnni 6–7 so‘zgacha qisqartiring — haydovchilar 3 soniyada o‘qiy oladi.»",
-      ru: "«Совет: Исправьте апостроф в узбекском тексте (O‘, G‘) и сократите текст до 6–7 слов, чтобы водители считывали рекламу за 3 секунды.»",
-      en: "“Tip: Use standard Uzbek apostrophes (O‘, G‘) and trim text under 7 words so drivers at 60 km/h absorb your offer in 3 seconds.”"
+      uz: "«Tavsiya: Takomillaştirilgan özbek lotin harflarini (O‘→Ö, G‘→Ğ, Sh→Ş, Ch→Ç) qöllang hamda matnni 6–7 sözgaça qisqartiring — haydovçilar 3 soniyada öqiy oladi.»",
+      ru: "«Совет: Используйте буквы нового узбекского алфавита (O‘→Ö, G‘→Ğ, Sh→Ş, Ch→Ç) и сократите текст до 6–7 слов, чтобы водители считывали рекламу за 3 секунды.»",
+      en: "“Tip: Use the reformed Uzbek Latin letters (O‘→Ö, G‘→Ğ, Sh→Ş, Ch→Ç) and trim text under 7 words so drivers at 60 km/h absorb your offer in 3 seconds.”"
     },
     checks: {
       uz: [
         { ok: true, text: "Zona: Mos" },
-        { ok: false, text: "Til: Apostrof (O‘)" },
-        { ok: false, text: "Matn: Ko‘p (34%)" }
+        { ok: false, text: "Alifbo: Ö, Ğ, Ş, Ç" },
+        { ok: false, text: "Matn: Köp (34%)" }
       ],
       ru: [
         { ok: true, text: "Зона: Подходит" },
-        { ok: false, text: "Язык: Апостроф (O‘)" },
+        { ok: false, text: "Алфавит: Ö, Ğ, Ş, Ç" },
         { ok: false, text: "Текст: Перегружен" }
       ],
       en: [
         { ok: true, text: "Zone: Approved" },
-        { ok: false, text: "Language: O‘ Typo" },
+        { ok: false, text: "Alphabet: Ö, Ğ, Ş, Ç" },
         { ok: false, text: "Visual: Text Dense" }
       ]
     }
@@ -1050,12 +1236,12 @@ window.ADSPOT_ADVISORY_PRESETS = {
   family_optimal: {
     score: 98,
     headline: {
-      uz: "A’lo natija (98/100)! Joylashuv va dizayn ideal moslikda",
+      uz: "A’lo natija (98/100)! Joylaşuv va dizayn ideal moslikda",
       ru: "Отлично (98/100)! Макет полностью готов к запуску",
       en: "Excellent (98/100)! Ready for Immediate Launch"
     },
     quote: {
-      uz: "«6 ta so‘zdan iborat aniq sarlavha, bexato davlat tili imlosi va oilaviy hududlarga 100% mos yuqori ‘vpechatleniye’.»",
+      uz: "«6 ta sözdan iborat aniq sarlavha, bexato davlat tili imlosi va oilaviy hududlarga 100% mos yuqori ‘vpeçatleniye’.»",
       ru: "«Лаконичный заголовок, безупречная орфография и 100% соответствие семейным зонам. Дорогое и чистое впечатление.»",
       en: "“Crisp 6-word headline, verified state language orthography, and 100% safe for family and school zones.”"
     },
@@ -1063,7 +1249,7 @@ window.ADSPOT_ADVISORY_PRESETS = {
       uz: [
         { ok: true, text: "Zona: 100% Mos" },
         { ok: true, text: "Davlat tili: A’lo" },
-        { ok: true, text: "Vpechatleniye: 98%" }
+        { ok: true, text: "Vpeçatleniye: 98%" }
       ],
       ru: [
         { ok: true, text: "Зона: 100% Ок" },

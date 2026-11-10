@@ -58,12 +58,12 @@ const CHAT_THREADS = [
     type: 'ai',
     spotIds: [],
     name: {
-      uz: 'AdSpot 24/7 Smart AI Yordamchi',
+      uz: 'AdSpot 24/7 Smart AI Yordamçi',
       ru: 'Умный AI-Ассистент AdSpot 24/7',
       en: 'AdSpot 24/7 Smart AI Assistant'
     },
     subtitle: {
-      uz: 'Narxlar, tumanlar, o‘lchamlar va qonuniy tekshiruv',
+      uz: 'Narxlar, tumanlar, ölçamlar va qonuniy tekşiruv',
       ru: 'Цены, районы, размеры и проверка по закону',
       en: 'Prices, districts, dimensions & legal pre-check'
     },
@@ -71,7 +71,7 @@ const CHAT_THREADS = [
     unread: 0,
     messages: {
       uz: [
-        { from: 'partner', name: 'AdSpot 24/7 AI', text: 'Assalomu alaykum! Menga istalgan savolingizni yozing: masalan, "Eng arzon bilbord qancha?", "Chilonzorda qanday joylar bor?", "O‘lchamlar qanday?" yoki "Maktab yonida qanday qoida bor?".' }
+        { from: 'partner', name: 'AdSpot 24/7 AI', text: 'Assalomu alaykum! Menga istalgan savolingizni yozing: masalan, "Eng arzon bilbord qança?", "Çilonzorda qanday joylar bor?", "Ölçamlar qanday?" yoki "Maktab yonida qanday qoida bor?".' }
       ],
       ru: [
         { from: 'partner', name: 'AdSpot 24/7 AI', text: 'Здравствуйте! Задайте любой вопрос: например, «Какая самая низкая цена?», «Что есть в Чиланзаре?», «Какие размеры баннеров?» или «Правила у школ и мечетей».' }
@@ -91,7 +91,7 @@ const CHAT_THREADS = [
       en: 'Poytaxt Bilbord Servis'
     },
     subtitle: {
-      uz: 'Amir Temur Xiyoboni (YUN-01) va Mirzo Ulug‘bek (MIR-01)',
+      uz: 'Amir Temur Xiyoboni (YUN-01) va Mirzo Uluğbek (MIR-01)',
       ru: 'Сквер Амира Темура (YUN-01) и Мирзо-Улугбек (MIR-01)',
       en: 'Amir Temur Square (YUN-01) & Mirzo Ulugbek (MIR-01)'
     },
@@ -99,7 +99,7 @@ const CHAT_THREADS = [
     unread: 1,
     messages: {
       uz: [
-        { from: 'partner', name: 'Poytaxt Bilbord Servis', text: 'Salom! Biz Amir Temur Xiyoboni (YUN-01, 5.2M UZS) va Buyuk Ipak Yo‘li (MIR-01, 6.1M UZS) bilbordlari egasimiz. Bo‘sh sanalar va chop etish bo‘yicha so‘rashingiz mumkin.' }
+        { from: 'partner', name: 'Poytaxt Bilbord Servis', text: 'Salom! Biz Amir Temur Xiyoboni (YUN-01, 5.2M UZS) va Buyuk Ipak Yöli (MIR-01, 6.1M UZS) bilbordlari egasimiz. Böş sanalar va çop etiş böyiça söraşingiz mumkin.' }
       ],
       ru: [
         { from: 'partner', name: 'Poytaxt Bilbord Servis', text: 'Здравствуйте! Мы владельцы щитов у Сквера Амира Темура (YUN-01, 5.2M UZS) и Буюк Ипак Йули (MIR-01, 6.1M UZS). Спрашивайте по датам и монтажу.' }
@@ -119,7 +119,7 @@ const CHAT_THREADS = [
       en: 'Toshkent Tashqi Media'
     },
     subtitle: {
-      uz: 'Chilonzor Savdo Markazi (CHIL-01 · 6m × 3m)',
+      uz: 'Çilonzor Savdo Markazi (CHIL-01 · 6m × 3m)',
       ru: 'Торговый Центр Чиланзар (CHIL-01 · 6м × 3м)',
       en: 'Chilanzar Trade Center (CHIL-01 · 6m × 3m)'
     },
@@ -127,7 +127,7 @@ const CHAT_THREADS = [
     unread: 0,
     messages: {
       uz: [
-        { from: 'partner', name: 'Toshkent Tashqi Media', text: 'Assalomu alaykum! Chilonzor-10 (Qatortol, CHIL-01) bilbordimiz oilaviy va savdo brendlari uchun ayni muddao. Oylik narxi 4,800,000 UZS.' }
+        { from: 'partner', name: 'Toshkent Tashqi Media', text: 'Assalomu alaykum! Çilonzor-10 (Qatortol, CHIL-01) bilbordimiz oilaviy va savdo brendlari uçun ayni muddao. Oylik narxi 4,800,000 UZS.' }
       ],
       ru: [
         { from: 'partner', name: 'Toshkent Tashqi Media', text: 'Добрый день! Наш щит на Катартале (CHIL-01) отлично подходит для семейных брендов и ритейла. Стоимость — 4,800,000 UZS/мес.' }
@@ -155,7 +155,7 @@ const CHAT_THREADS = [
     unread: 0,
     messages: {
       uz: [
-        { from: 'partner', name: 'OchiqShahar Digital', text: 'Salom! Bizning 4K LED ekranlarimizda (Bunyodkor CHIL-02 va Darxon MIR-02) 10 soniyalik video roliklar har 60 soniyada aylanadi. Video yuklash 15 daqiqada!' }
+        { from: 'partner', name: 'OchiqShahar Digital', text: 'Salom! Bizning 4K LED ekranlarimizda (Bunyodkor CHIL-02 va Darxon MIR-02) 10 soniyalik video roliklar har 60 soniyada aylanadi. Video yuklaş 15 daqiqada!' }
       ],
       ru: [
         { from: 'partner', name: 'OchiqShahar Digital', text: 'Приветствуем! На наших 4K LED экранах (Бунёдкор CHIL-02 и Дархан MIR-02) ваш 10-секундный ролик выходит каждые 60 секунд. Запуск за 15 минут!' }
@@ -175,7 +175,7 @@ const CHAT_THREADS = [
       en: 'AvtoBekat Media & CityLight'
     },
     subtitle: {
-      uz: 'Mega Planet (YUN-02) va Shota Rustaveli (YAK-01)',
+      uz: 'Mega Planet (YUN-02) va Şota Rustaveli (YAK-01)',
       ru: 'Mega Planet (YUN-02) и Шота Руставели (YAK-01)',
       en: 'Mega Planet (YUN-02) & Shota Rustaveli (YAK-01)'
     },
@@ -183,7 +183,7 @@ const CHAT_THREADS = [
     unread: 0,
     messages: {
       uz: [
-        { from: 'partner', name: 'AvtoBekat Media', text: 'Salom! Avtobus bekatlarimiz (YUN-02 2.9M UZS va YAK-01 2.4M UZS) piyodalar va talabalar uchun eng hamyonbop format hisoblanadi.' }
+        { from: 'partner', name: 'AvtoBekat Media', text: 'Salom! Avtobus bekatlarimiz (YUN-02 2.9M UZS va YAK-01 2.4M UZS) piyodalar va talabalar uçun eng hamyonbop format hisoblanadi.' }
       ],
       ru: [
         { from: 'partner', name: 'AvtoBekat Media', text: 'Здравствуйте! Сити-форматы на остановках (YUN-02 2.9M UZS и YAK-01 2.4M UZS) — лучший бюджетный старт для кафе и учебных центров.' }
@@ -203,7 +203,7 @@ const CHAT_THREADS = [
       en: 'AdSpot Design Studio'
     },
     subtitle: {
-      uz: 'Maket tayyorlash va O‘zbek tili qonunchilik tekshiruvi',
+      uz: 'Maket tayyorlaş va Özbek tili qonunçilik tekşiruvi',
       ru: 'Разработка макета и проверка языковых норм РУз',
       en: 'Banner layout & Uzbek ad law compliance studio'
     },
@@ -211,7 +211,7 @@ const CHAT_THREADS = [
     unread: 0,
     messages: {
       uz: [
-        { from: 'partner', name: 'AdSpot Design Studio', text: 'Salom! Logotipingiz va aksiyangizni yuboring — 2 soat ichida 6m×3m va 4K LED formatda qonunga 100% mos maket tayyorlab beramiz.' }
+        { from: 'partner', name: 'AdSpot Design Studio', text: 'Salom! Logotipingiz va aksiyangizni yuboring — 2 soat içida 6m×3m va 4K LED formatda qonunga 100% mos maket tayyorlab beramiz.' }
       ],
       ru: [
         { from: 'partner', name: 'AdSpot Design Studio', text: 'Здравствуйте! Пришлите логотип и текст акции — за 2 часа подготовим макет 6м×3м или 4K LED по всем нормам закона о рекламе РУз.' }
@@ -246,7 +246,7 @@ let activeCampaigns = [
     daysElapsed: 9,
     daysTotal: 14,
     title: {
-      uz: 'Shota Rustaveli BRT Bekati',
+      uz: 'Şota Rustaveli BRT Bekati',
       ru: 'Остановка Шота Руставели BRT',
       en: 'Shota Rustaveli BRT Shelter'
     },
@@ -263,7 +263,7 @@ let adminModerationQueue = [
     spotId: 'YUN-01',
     company: 'Coffee Roasters Tashkent',
     issue: {
-      uz: 'Amir Temur Xiyoboni (YUN-01) uchun "Morning Coffee -30%" maketi · O‘zbek tilidagi tarjima tekshirildi (Smart Score: 96/100)',
+      uz: 'Amir Temur Xiyoboni (YUN-01) uçun "Morning Coffee -30%" maketi · Özbek tilidagi tarjima tekşirildi (Smart Score: 96/100)',
       ru: 'Макет «Morning Coffee -30%» для Сквера Амира Темура (YUN-01) · Узбекский текст проверен (Smart Score: 96/100)',
       en: 'Banner "Morning Coffee -30%" for Amir Temur Square (YUN-01) · Uzbek state language verified (Smart Score: 96/100)'
     },
@@ -275,7 +275,7 @@ let adminModerationQueue = [
     spotId: 'SERG-01',
     company: 'Sergeli Media Group',
     issue: {
-      uz: 'Yangi 6m×3m LED Ekran: Sergeli Yangi Hayot metro bekati · Kadastr va Toshkent shahar ruxsatnomasi biriktirilgan',
+      uz: 'Yangi 6m×3m LED Ekran: Sergeli Yangi Hayot metro bekati · Kadastr va Toşkent şahar ruxsatnomasi biriktirilgan',
       ru: 'Новый 6м×3м LED экран: метро Янги Хаёт (Сергели) · Кадастр и разрешение хокимията прикреплены',
       en: 'New 6m×3m LED Screen: Sergeli Yangi Hayot Metro · Cadastre & Municipality permit attached'
     },
@@ -287,7 +287,7 @@ let adminModerationQueue = [
     spotId: 'YUN-01',
     company: 'Turbo Energy Drink',
     issue: {
-      uz: '5-maktabdan 180m masofada energetik ichimlik reklamasi · Avtomatik CHIL-02 (Bunyodkor) nuqtasiga yo‘naltirish tavsiya etildi',
+      uz: '5-maktabdan 180m masofada energetik içimlik reklamasi · Avtomatik CHIL-02 (Bunyodkor) nuqtasiga yönaltiriş tavsiya etildi',
       ru: 'Реклама энергетика в 180м от школы №5 · Рекомендован перенос на CHIL-02 (Бунёдкор)',
       en: 'Energy drink creative 180m from School #5 · Recommended reroute to CHIL-02 (Bunyodkor Highway)'
     },
@@ -408,7 +408,7 @@ function submitAuthForm(e) {
   const feedback = document.getElementById('auth-feedback-banner');
   if (feedback) {
     const msgByLang = {
-      uz: `✓ Xush kelibsiz, ${name} (${company})! Hisobingiz tasdiqlandi. ${selectedSpotId} nuqtasiga yo‘naltirilmoqda...`,
+      uz: `✓ Xuş kelibsiz, ${name} (${company})! Hisobingiz tasdiqlandi. ${selectedSpotId} nuqtasiga yönaltirilmoqda...`,
       ru: `✓ Добро пожаловать, ${name} (${company})! Аккаунт подтвержден. Переходим к точке ${selectedSpotId}...`,
       en: `✓ Welcome, ${name} (${company})! Your account is verified. Redirecting to spot ${selectedSpotId}...`
     };
@@ -435,22 +435,22 @@ const VIDEO_GUIDE_STEPS = [
   {
     step: '01 / 05',
     title: {
-      uz: '1-Qadam: Toshkent Xaritasidan Tasdiqlangan Joyni Tanlang',
+      uz: '1-Qadam: Toşkent Xaritasidan Tasdiqlangan Joyni Tanlang',
       ru: 'Шаг 1: Выберите проверенную точку на карте Ташкента',
       en: 'Step 1: Pick a Verified Tashkent Spot on the Live Map'
     },
     desc: {
-      uz: 'Tuman (Yunusobod, Chilonzor, Mirzo Ulug‘bek, Yakkasaroy) va formatni (Bilbord, 4K LED, Bekat) filtrlang. Har bir nuqtaning kunlik oqimi va ko‘cha ko‘rinishi darhol chiqadi.',
+      uz: 'Tuman (Yunusobod, Çilonzor, Mirzo Uluğbek, Yakkasaroy) va formatni (Bilbord, 4K LED, Bekat) filtrlang. Har bir nuqtaning kunlik oqimi va köça körinişi darhol çiqadi.',
       ru: 'Фильтруйте по району и формату (Щит 6×3м, 4K LED экран, Остановка). Для каждой точки виден суточный трафик и превью конструкции на улице.',
       en: 'Filter by district and format (6×3m Billboard, 4K LED Screen, Bus Shelter). Every pin shows real daily commuter traffic, monthly UZS price, and a live street-level preview.'
     },
     visualMetric: {
-      uz: '6 ta tasdiqlangan nuqta · Kuniga 39,500 dan 96,200 gacha ko‘rish',
+      uz: '6 ta tasdiqlangan nuqta · Kuniga 39,500 dan 96,200 gaça köriş',
       ru: '6 проверенных точек · От 39 500 до 96 200 показов в сутки',
       en: '6 Verified High-Traffic Pins · 39,500 to 96,200 Daily Views'
     },
     actionLabel: {
-      uz: 'Jonli Xaritada sinab ko‘rish →',
+      uz: 'Jonli Xaritada sinab köriş →',
       ru: 'Попробовать на живой карте →',
       en: 'Try It on the Live Map →'
     },
@@ -459,22 +459,22 @@ const VIDEO_GUIDE_STEPS = [
   {
     step: '02 / 05',
     title: {
-      uz: '2-Qadam: Aqlli AI Tekshiruv (Maktab hududi va Davlat tili)',
+      uz: '2-Qadam: Aqlli AI Tekşiruv (Maktab hududi va Davlat tili)',
       ru: 'Шаг 2: Умная AI-премодерация (Школьные зоны и Госязык)',
       en: 'Step 2: Instant Smart Pre-Check (School Zones & State Language)'
     },
     desc: {
-      uz: 'Banner matningizni yozing yoki rasm yuklang. Tizim 2 soniyada maktab/masjid (200m) cheklovini, O‘zbek tili imlosini va 60 km/s tezlikda o‘qilishini tekshiradi.',
+      uz: 'Banner matningizni yozing yoki rasm yuklang. Tizim 2 soniyada maktab/masjid (200m) çeklovini, Özbek tili imlosini va 60 km/s tezlikda öqilişini tekşiradi.',
       ru: 'Введите слоган или загрузите макет. Система за 2 секунды проверит 200м зону у школ/мечетей, узбекскую орфографию и читаемость на скорости 60 км/ч.',
       en: 'Type your slogan or upload your banner. In 2 seconds, AdSpot checks 200m school/mosque zones, Uzbek state language spelling, and 60 km/h highway readability.'
     },
     visualMetric: {
-      uz: 'Smart Reyting 98/100 · Rad etilish xavfi 0%',
+      uz: 'Smart Reyting 98/100 · Rad etiliş xavfi 0%',
       ru: 'Smart Рейтинг 98/100 · Нулевой риск отказа',
       en: 'Smart Score 98/100 · Zero Municipality Rejection Risk'
     },
     actionLabel: {
-      uz: 'Banner tekshiruvini sinash →',
+      uz: 'Banner tekşiruvini sinaş →',
       ru: 'Проверить баннер сейчас →',
       en: 'Test Banner Pre-Check Now →'
     },
@@ -483,22 +483,22 @@ const VIDEO_GUIDE_STEPS = [
   {
     step: '03 / 05',
     title: {
-      uz: '3-Qadam: Kuniga 84,000 Yo‘lovchi Oqimi va Mijozlar Hisobi',
+      uz: '3-Qadam: Kuniga 84,000 Yölovçi Oqimi va Mijozlar Hisobi',
       ru: 'Шаг 3: Охват 84,000 человек в день и расчёт новых клиентов',
       en: 'Step 3: 84,000 Daily Commuters & Real Customer Conversion'
     },
     desc: {
-      uz: 'Tasdiqlangan 1 ta bilbord kuniga o‘rtacha 84,000 haydovchi va piyodaga ko‘rinadi (oyiga 2.52 million ko‘rish). Kalkulyator orqali byudjetingiz qancha yangi mijoz olib kelishini hisoblang.',
+      uz: 'Tasdiqlangan 1 ta bilbord kuniga örtaça 84,000 haydovçi va piyodaga körinadi (oyiga 2.52 million köriş). Kalkulyator orqali byudjetingiz qança yangi mijoz olib kelişini hisoblang.',
       ru: 'Один проверенный щит даёт в среднем 84,000 контактов в сутки (2.52 млн в месяц). Рассчитайте точный возврат инвестиций в нашем калькуляторе трафика.',
       en: 'A single verified billboard reaches an average of 84,000 commuters daily (2.52M monthly impressions). Use the interactive calculator tab to forecast your store visits.'
     },
     visualMetric: {
-      uz: 'Kuniga 84,000 qamrov = Oyiga 2,520,000 ko‘rish',
+      uz: 'Kuniga 84,000 qamrov = Oyiga 2,520,000 köriş',
       ru: '84 000 в сутки = 2 520 000 показов в месяц',
       en: '84,000 Daily Reach = 2,520,000 Monthly Views'
     },
     actionLabel: {
-      uz: '84K Oqim Kalkulyatorini ochish →',
+      uz: '84K Oqim Kalkulyatorini oçiş →',
       ru: 'Открыть калькулятор 84K трафика →',
       en: 'Open 84K Traffic Calculator →'
     },
@@ -507,22 +507,22 @@ const VIDEO_GUIDE_STEPS = [
   {
     step: '04 / 05',
     title: {
-      uz: '4-Qadam: Chat Papkasida Joy Egasi Bilan To‘g‘ridan-To‘g‘ri Aloqa',
+      uz: '4-Qadam: Çat Papkasida Joy Egasi Bilan Töğridan-Töğri Aloqa',
       ru: 'Шаг 4: Прямой чат с владельцем конструкции в папке чатов',
       en: 'Step 4: Direct Chat with Space Owners in the Chat Folder'
     },
     desc: {
-      uz: 'Vositachilarsiz! Chat papkasida har bir bilbord egasi (Poytaxt Bilbord, OchiqShahar Digital, Toshkent Tashqi Media) yoki 24/7 AI yordamchi bilan savdolashing.',
+      uz: 'Vositaçilarsiz! Çat papkasida har bir bilbord egasi (Poytaxt Bilbord, OchiqShahar Digital, Toshkent Tashqi Media) yoki 24/7 AI yordamçi bilan savdolaşing.',
       ru: 'Без посредников! В папке чатов общайтесь напрямую с владельцем выбранного щита, студией дизайна или умным AI-ассистентом 24/7.',
       en: 'No agency middlemen! Use the multi-thread Chat Folder to message the exact billboard owner, request a custom banner from Design Studio, or ask our 24/7 AI.'
     },
     visualMetric: {
-      uz: '6 ta maxsus chat kanali · Vositachilarsiz narxlar',
+      uz: '6 ta maxsus çat kanali · Vositaçilarsiz narxlar',
       ru: '6 выделенных чатов · Прямые цены владельцев',
       en: '6 Dedicated Chat Channels · Direct Owner Pricing'
     },
     actionLabel: {
-      uz: 'Chat Papkasini ochish →',
+      uz: 'Çat Papkasini oçiş →',
       ru: 'Открыть Папку Чатов →',
       en: 'Open Chat Folder →'
     },
@@ -531,22 +531,22 @@ const VIDEO_GUIDE_STEPS = [
   {
     step: '05 / 05',
     title: {
-      uz: '5-Qadam: Payme, Click Up yoki Didox Orqali 1-Klikda Band Qilish',
+      uz: '5-Qadam: Payme, Click Up yoki Didox Orqali 1-Klikda Band Qiliş',
       ru: 'Шаг 5: Бронирование в 1 клик через Payme, Click Up или Didox ЭДО',
       en: 'Step 5: One-Click Booking via Payme, Click Up, or Didox E-Contract'
     },
     desc: {
-      uz: 'Sanani tanlang va to‘lovni amalga oshiring. Sizga darhol fotohisobot va jonli statistika kabineti ochiladi.',
+      uz: 'Sanani tanlang va tölovni amalga oşiring. Sizga darhol fotohisobot va jonli statistika kabineti oçiladi.',
       ru: 'Выберите даты и оплатите онлайн. Вы сразу получаете фотоотчёт монтажа и доступ к живой аналитике показов в личном кабинете.',
       en: 'Select your campaign duration and pay securely via Payme, Click Up, or Didox B2B invoice. Track live daily impressions in your Business Owner Portal.'
     },
     visualMetric: {
-      uz: '100% Xavfsiz To‘lov · Rasmiy Didox E-Shartnoma',
+      uz: '100% Xavfsiz Tölov · Rasmiy Didox E-Şartnoma',
       ru: '100% Защита сделки · Официальный ЭДО Didox',
       en: '100% Escrow Protected · Instant Didox Tax Invoice'
     },
     actionLabel: {
-      uz: 'To‘g‘ridan-to‘g‘ri bronlashga o‘tish →',
+      uz: 'Töğridan-töğri bronlaşga ötiş →',
       ru: 'Перейти к прямому бронированию →',
       en: 'Go to Direct Checkout →'
     },
@@ -589,38 +589,38 @@ function renderGuideModalContent() {
 
   const uiText = {
     uz: {
-      videoBadge: '▶ INTERAKTIV VIDEO YO‘RIQNOMA · QADAM',
+      videoBadge: '▶ INTERAKTIV VIDEO YÖRIQNOMA · QADAM',
       prevBtn: '← Oldingi qadam',
       nextBtn: 'Keyingi qadam →',
       stepHint: 'Yuqoridagi 1–5 raqamlarni yoki Keyingi tugmasini bosing',
-      t1Kicker: '01 · TANLASH VA OLDINDAN TEKSHIRISH TIZIMI',
-      t1Title: 'Nima uchun Pre-Check biznesingiz vaqti va pulini tejaydi?',
-      t1Desc: 'Toshkentda maktab/masjid yaqinidagi (200m) yoki O‘zbek davlat tili imlosi xato bo‘lgan bannerlar chop etilgandan keyin rad etiladi. Bizning tizim to‘lovdan oldin 2 soniyada barchasini tekshiradi.',
+      t1Kicker: '01 · TANLAŞ VA OLDINDAN TEKŞIRIŞ TIZIMI',
+      t1Title: 'Nima uçun Pre-Check biznesingiz vaqti va pulini tejaydi?',
+      t1Desc: 'Toşkentda maktab/masjid yaqinidagi (200m) yoki Özbek davlat tili imlosi xato bölgan bannerlar çop etilgandan keyin rad etiladi. Bizning tizim tölovdan oldin 2 soniyada barçasini tekşiradi.',
       t1c1Title: '✓ 200m Masofa Radari',
-      t1c1Desc: 'Har bir bilbord atrofidagi maktab, bog‘cha va masjidlarni avtomatik aniqlaydi.',
-      t1c2Title: '✓ "Reklama to‘g‘risida"gi Qonun',
-      t1c2Desc: 'O‘RQ-776 talabi bo‘yicha O‘zbek lotin imlosi (O‘, G‘) va til nisbatini tekshiradi.',
+      t1c1Desc: 'Har bir bilbord atrofidagi maktab, boğça va masjidlarni avtomatik aniqlaydi.',
+      t1c2Title: '✓ "Reklama töğrisida"gi Qonun',
+      t1c2Desc: 'ÖRQ-776 talabi böyiça yangi Özbek lotin alifbosi (Ö, Ğ, Ş, Ç) va til nisbatini tekşiradi.',
       t1c3Title: '✓ 3 Soniyalik Magistral Qoidasi',
-      t1c3Desc: '60 km/s tezlikdagi haydovchilar 2.5 soniyada o‘qishi uchun ≤7 so‘z me’yorini tekshiradi.',
-      t1Btn: 'Jonli Banner Skanerini Ochish →',
+      t1c3Desc: '60 km/s tezlikdagi haydovçilar 2.5 soniyada öqişi uçun ≤7 söz me’yorini tekşiradi.',
+      t1Btn: 'Jonli Banner Skanerini Oçiş →',
       t2Kicker: '02 · INTERAKTIV OQIM VA DAROMAD (ROI) KALKULYATORI',
-      t2Title: 'Tasdiqlangan Bilbord Kuniga 84,000 Yo‘lovchini Qamrab Oladi',
-      t2Desc: 'Quyidagi slayderlarni surib, kampaniya kunlari va ko‘cha oqimiga qarab jami ko‘rishlar va yangi mijozlar sonini hisoblang.',
-      t2Slider1: 'Kunlik ko‘cha oqimi:',
+      t2Title: 'Tasdiqlangan Bilbord Kuniga 84,000 Yölovçini Qamrab Oladi',
+      t2Desc: 'Quyidagi slayderlarni surib, kampaniya kunlari va köça oqimiga qarab jami körişlar va yangi mijozlar sonini hisoblang.',
+      t2Slider1: 'Kunlik köça oqimi:',
       t2Slider2: 'Kampaniya muddati:',
       t2DayUnit: 'kun',
-      t2Out1: 'Jami Tasdiqlangan Ko‘rishlar',
-      t2Out2: 'Eslab Qolish (38%)',
-      t2Out3: 'Tahminiy Mijozlar / Tashriflar',
-      t2Out4: '1,000 Ko‘rish Narxi (CPM)',
-      t3Kicker: '03 · JONLI KO‘RISHLAR TELEMETRIYASI',
-      t3Title: 'Toshkent Bo‘ylab Soatbay Yo‘lovchi Oqimi Tahlili',
-      t3Desc: 'Har bir AdSpot konstruksiyasi yo‘l datchiklari ma’lumotlarini birlashtirib, reklamangiz qaysi soatda eng ko‘p ko‘rilishini ko‘rsatadi.',
-      t3c1Title: 'Ertalabki Tig‘iz Vaqt (07:30 – 10:00)',
-      t3c1Sub: 'Amir Temur va Buyuk Ipak Yo‘lida maksimal oqim',
+      t2Out1: 'Jami Tasdiqlangan Körişlar',
+      t2Out2: 'Eslab Qoliş (38%)',
+      t2Out3: 'Tahminiy Mijozlar / Taşriflar',
+      t2Out4: '1,000 Köriş Narxi (CPM)',
+      t3Kicker: '03 · JONLI KÖRIŞLAR TELEMETRIYASI',
+      t3Title: 'Toşkent Böylab Soatbay Yölovçi Oqimi Tahlili',
+      t3Desc: 'Har bir AdSpot konstruksiyasi yöl datçiklari ma’lumotlarini birlaştirib, reklamangiz qaysi soatda eng köp körilişini körsatadi.',
+      t3c1Title: 'Ertalabki Tiğiz Vaqt (07:30 – 10:00)',
+      t3c1Sub: 'Amir Temur va Buyuk Ipak Yölida maksimal oqim',
       t3c2Title: 'Kunduzgi Savdo Oqimi (12:00 – 16:00)',
-      t3c2Sub: 'Chilonzor Qatortol va Shota Rustavelida yuqori faollik',
-      t3c3Title: 'Kechki LED Cho‘qqisi (17:30 – 22:30)',
+      t3c2Sub: 'Çilonzor Qatortol va Şota Rustavelida yuqori faollik',
+      t3c3Title: 'Keçki LED Çöqqisi (17:30 – 22:30)',
       t3c3Sub: 'Bunyodkor va Darxon 4K LED ekranlarida yorqin qamrov'
     },
     ru: {
@@ -634,7 +634,7 @@ function renderGuideModalContent() {
       t1c1Title: '✓ Радар 200м зон',
       t1c1Desc: 'Автоматически определяет школы, детсады и мечети вокруг каждой точки.',
       t1c2Title: '✓ Закон «О рекламе» РУз',
-      t1c2Desc: 'Проверяет узбекскую орфографию (O‘, G‘) и языковые пропорции по ЗРУ-776.',
+      t1c2Desc: 'Проверяет новый узбекский алфавит (Ö, Ğ, Ş, Ç) и языковые пропорции по ЗРУ-776.',
       t1c3Title: '✓ Правило 3 секунд на трассе',
       t1c3Desc: 'Контролирует длину слогана (до 7 слов) для чтения на скорости 60 км/ч.',
       t1Btn: 'Запустить Живой Сканер Баннера →',
@@ -669,7 +669,7 @@ function renderGuideModalContent() {
       t1c1Title: '✓ 200m Proximity Radar',
       t1c1Desc: 'Automatically detects schools, kindergartens, mosques, and hospitals around every pin.',
       t1c2Title: '✓ Law "On Advertising" Check',
-      t1c2Desc: 'Validates Uzbek Latin apostrophes (O‘, G‘) and bilingual text ratios required by ZRU-776.',
+      t1c2Desc: 'Validates the reformed Uzbek Latin alphabet (Ö, Ğ, Ş, Ç) and bilingual text ratios required by ZRU-776.',
       t1c3Title: '✓ 3-Second Highway Rule',
       t1c3Desc: 'Ensures drivers at 60 km/h can read your headline in under 2.5 seconds (max 7 words).',
       t1Btn: 'Launch Live Banner Scanner Now →',
@@ -973,11 +973,102 @@ function setLanguage(lang) {
 
   renderHeroPills();
   applyMapFilters();
+  renderAdTypesSection();
   runAdvisoryScenario(currentAdvisoryPreset);
   renderGuideModalContent();
   renderChatFolderList();
   renderChatMessages();
   renderPortalView();
+}
+
+let currentGuideTopicIdx = 0;
+
+function selectGuideTopic(idx) {
+  currentGuideTopicIdx = idx;
+  renderAdTypesSection();
+}
+
+function filterMapByAdType(fmt) {
+  const fmtEl = document.getElementById('filter-format');
+  const distEl = document.getElementById('filter-district');
+  if (distEl) distEl.value = 'all';
+  if (fmtEl) {
+    fmtEl.value = (fmt === 'billboard' || fmt === 'led' || fmt === 'bus_stop') ? fmt : 'all';
+  }
+  applyMapFilters();
+  const mapSec = document.getElementById('map-section');
+  if (mapSec) mapSec.scrollIntoView({ behavior: 'smooth' });
+}
+
+function renderAdTypesSection() {
+  const cardsGrid = document.getElementById('ad-types-cards-grid');
+  const pillsGrid = document.getElementById('jump-to-section-pills');
+  const articleBox = document.getElementById('jump-to-section-article');
+  const dict = window.ADSPOT_I18N[currentLang].adTypesSection || {};
+
+  if (cardsGrid && window.ADSPOT_AD_TYPES) {
+    cardsGrid.innerHTML = window.ADSPOT_AD_TYPES.map(item => `
+      <div class="bento-white-card overflow-hidden border border-[#C8AD8D]/60 flex flex-col justify-between group hover:border-[#284B63] transition-all">
+        <div class="relative h-52 sm:h-56 overflow-hidden bg-[#1B3249]">
+          <img src="${item.photo}" alt="${item.title[currentLang]}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#1B3249]/90 via-[#1B3249]/20 to-transparent flex flex-col justify-between p-4">
+            <div class="flex items-center justify-between gap-2">
+              <span class="px-3 py-1 rounded-full bg-[#284B63]/95 text-[#FBF9F5] text-[11px] font-extrabold shadow-sm">
+                ${item.badge[currentLang]}
+              </span>
+              <span class="px-2.5 py-1 rounded-full bg-[#FBF9F5]/95 text-[#1B3249] text-[11px] font-extrabold">
+                ${item.priceRange}
+              </span>
+            </div>
+            <div class="text-white">
+              <div class="text-lg sm:text-xl font-extrabold leading-snug drop-shadow">${item.title[currentLang]}</div>
+              <div class="text-[11px] text-[#EBE2D3] font-semibold mt-0.5">${item.specs}</div>
+            </div>
+          </div>
+        </div>
+        <div class="p-5 space-y-3 flex-1 flex flex-col justify-between">
+          <p class="text-xs text-[#5A6B7C] leading-relaxed">${item.desc[currentLang]}</p>
+          <div class="pt-3 border-t border-[#C8AD8D]/40 flex flex-wrap items-center justify-between gap-2">
+            <span class="text-xs font-extrabold text-[#1B3249] inline-flex items-center gap-1.5">
+              ${SVG_ICONS.eyePulse}
+              <span>${item.avgTraffic}</span>
+            </span>
+            <button type="button" onclick="filterMapByAdType('${item.id}')" class="px-4 py-2 rounded-full bg-[#284B63] hover:bg-[#1B3249] text-[#FBF9F5] text-xs font-extrabold transition-colors cursor-pointer">
+              ${dict.filterBtn || 'Filter on Map →'}
+            </button>
+          </div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  if (pillsGrid && articleBox && window.ADSPOT_GUIDE_TOPICS) {
+    const topics = window.ADSPOT_GUIDE_TOPICS;
+    pillsGrid.innerHTML = topics.map((t, idx) => {
+      const isAct = idx === currentGuideTopicIdx;
+      return `
+        <button type="button" onclick="selectGuideTopic(${idx})" class="p-3.5 rounded-xl text-left border transition-all flex items-center gap-3 cursor-pointer ${
+          isAct
+            ? 'bg-[#284B63] text-[#FBF9F5] border-[#284B63] shadow-md'
+            : 'bg-[#FBF9F5] text-[#1B3249] border-[#C8AD8D]/50 hover:border-[#284B63]'
+        }">
+          <span class="text-xs font-extrabold ${isAct ? 'text-[#D4B895]' : 'text-[#284B63]'} shrink-0">${t.num}</span>
+          <span class="text-xs font-bold leading-snug">${t.title[currentLang]}</span>
+        </button>
+      `;
+    }).join('');
+
+    const activeTopic = topics[currentGuideTopicIdx] || topics[0];
+    articleBox.innerHTML = `
+      <div class="flex items-center gap-2 text-xs font-extrabold text-[#284B63] uppercase tracking-wider">
+        <span>${activeTopic.num}</span>
+        <span>·</span>
+        <span>ADSPOT TASHKENT KNOWLEDGE BASE</span>
+      </div>
+      <h3 class="text-lg sm:text-xl font-extrabold text-[#1B3249]">${activeTopic.title[currentLang]}</h3>
+      <p class="text-xs sm:text-sm text-[#1B3249]/85 leading-relaxed pt-1">${activeTopic.body[currentLang]}</p>
+    `;
+  }
 }
 
 /* ==========================================================================
@@ -1156,52 +1247,70 @@ function renderAdQuickCatalogGrid(spots) {
     const monthlyViews = s.dailyTraffic * 30;
     const monthlyViewsM = (monthlyViews / 1000000).toFixed(2) + 'M';
     const cpmUZS = Math.round(s.monthlyPriceUZS / (monthlyViews / 1000));
+    const photoUrl = s.photo || 'assets/photos/YUN-01.jpg';
     const zoneBadge = s.sensitiveZone
       ? `<span class="px-2.5 py-0.5 rounded-full bg-[#EBE2D3] text-[#8C7355] text-[10px] font-bold">${dict.sensZoneBadge || '⚠ 200m School/Mosque Zone'}</span>`
       : `<span class="px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-[10px] font-bold">${dict.safeZoneBadge || '✓ Safe Zone'}</span>`;
 
     return `
-      <div class="bento-white-card p-5 flex flex-col justify-between space-y-4 transition-all ${
+      <div class="bento-white-card overflow-hidden flex flex-col justify-between transition-all ${
         isSel ? 'ring-2 ring-[#284B63] border-[#284B63]' : 'hover:border-[#284B63]'
       }">
-        <div class="space-y-2">
-          <div class="flex items-center justify-between gap-2">
-            <span class="px-2.5 py-1 rounded-full bg-[#1B3249] text-[#FBF9F5] text-[11px] font-extrabold">
-              ${s.id} · ${s.formatLabel[currentLang]}
-            </span>
-            ${zoneBadge}
-          </div>
-          <h4 class="text-base font-extrabold text-[#1B3249] leading-snug">${s.title[currentLang]}</h4>
-          <div class="text-xs text-[#5A6B7C] font-medium">${s.districtLabel[currentLang]} · ${s.street[currentLang]}</div>
-        </div>
-
-        <div class="grid grid-cols-3 gap-2 text-center py-2.5 px-2 rounded-xl bg-[#F3EDE2] border border-[#C8AD8D]/40">
-          <div>
-            <div class="text-xs font-extrabold text-[#1B3249]">${formatNum(s.dailyTraffic)}</div>
-            <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.viewsDayShort || 'views/day'}</div>
-          </div>
-          <div>
-            <div class="text-xs font-extrabold text-[#1B3249]">${monthlyViewsM}</div>
-            <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.monthlyViewsLabel || 'Monthly Views'}</div>
-          </div>
-          <div>
-            <div class="text-xs font-extrabold text-[#284B63]">${formatNum(cpmUZS)} UZS</div>
-            <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.cpmLabel || 'CPM (per 1K)'}</div>
+        <!-- Real Street Billboard / LED Photo Header -->
+        <div onclick="selectSpotFromMap('${s.id}')" class="relative h-44 w-full overflow-hidden bg-[#1B3249] cursor-pointer group">
+          <img src="${photoUrl}" alt="${s.title[currentLang]}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#1B3249]/85 via-transparent to-[#1B3249]/30 p-3 flex flex-col justify-between">
+            <div class="flex items-center justify-between gap-2">
+              <span class="px-2.5 py-1 rounded-full bg-[#1B3249]/90 text-[#FBF9F5] text-[11px] font-extrabold border border-[#D4B895]/40">
+                ${s.id} · ${s.formatLabel[currentLang]}
+              </span>
+              ${zoneBadge}
+            </div>
+            <div class="flex items-center justify-between text-[11px] font-bold text-[#FBF9F5]">
+              <span>${s.dimensions}</span>
+              <span class="px-2 py-0.5 rounded bg-[#284B63]/90 text-[#D4B895]">${formatNum(s.dailyTraffic)} ${dict.viewsDayShort || 'views/day'}</span>
+            </div>
           </div>
         </div>
 
-        <div class="flex items-center justify-between pt-1">
-          <div>
-            <div class="text-lg font-extrabold text-[#284B63]">${formatNum(s.monthlyPriceUZS)}</div>
-            <div class="text-[10px] font-bold text-[#5A6B7C]">${dict.perMonth} · ${s.dimensions}</div>
+        <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+          <!-- Address + Beside-Address Mini Photo Thumbnail -->
+          <div class="flex items-start gap-3">
+            <img src="${photoUrl}" alt="${s.id}" class="w-12 h-12 rounded-xl object-cover border border-[#C8AD8D] shrink-0 mt-0.5" />
+            <div class="min-w-0">
+              <h4 class="text-base font-extrabold text-[#1B3249] leading-snug">${s.title[currentLang]}</h4>
+              <div class="text-xs text-[#5A6B7C] font-medium mt-0.5">${s.districtLabel[currentLang]} · ${s.street[currentLang]}</div>
+            </div>
           </div>
-          <div class="flex items-center gap-1.5">
-            <button type="button" onclick="selectSpotFromMap('${s.id}')" class="px-3 py-2 rounded-full bg-[#EBE2D3] hover:bg-[#D4B895] text-[#1B3249] text-xs font-bold transition-colors cursor-pointer">
-              ${dict.inspectBtn || 'Inspect'}
-            </button>
-            <button type="button" onclick="selectSpotFromMap('${s.id}'); openAuthModal('book');" class="btn-cobalt-pill px-3.5 py-2 text-xs font-bold cursor-pointer">
-              <span>${window.ADSPOT_I18N[currentLang].nav.cta}</span>
-            </button>
+
+          <div class="grid grid-cols-3 gap-2 text-center py-2.5 px-2 rounded-xl bg-[#F3EDE2] border border-[#C8AD8D]/40">
+            <div>
+              <div class="text-xs font-extrabold text-[#1B3249]">${formatNum(s.dailyTraffic)}</div>
+              <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.viewsDayShort || 'views/day'}</div>
+            </div>
+            <div>
+              <div class="text-xs font-extrabold text-[#1B3249]">${monthlyViewsM}</div>
+              <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.monthlyViewsLabel || 'Monthly Views'}</div>
+            </div>
+            <div>
+              <div class="text-xs font-extrabold text-[#284B63]">${formatNum(cpmUZS)} UZS</div>
+              <div class="text-[10px] text-[#5A6B7C] font-semibold">${dict.cpmLabel || 'CPM (per 1K)'}</div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between pt-1">
+            <div>
+              <div class="text-lg font-extrabold text-[#284B63]">${formatNum(s.monthlyPriceUZS)}</div>
+              <div class="text-[10px] font-bold text-[#5A6B7C]">${dict.perMonth} · ${s.owner}</div>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <button type="button" onclick="selectSpotFromMap('${s.id}')" class="px-3 py-2 rounded-full bg-[#EBE2D3] hover:bg-[#D4B895] text-[#1B3249] text-xs font-bold transition-colors cursor-pointer">
+                ${dict.inspectBtn || 'Inspect'}
+              </button>
+              <button type="button" onclick="selectSpotFromMap('${s.id}'); openAuthModal('book');" class="btn-cobalt-pill px-3.5 py-2 text-xs font-bold cursor-pointer">
+                <span>${window.ADSPOT_I18N[currentLang].nav.cta}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -1264,6 +1373,7 @@ function toggleStreetPreviewTime() {
 function renderInspectorCard() {
   const s = window.ADSPOT_SPOTS.find(x => x.id === selectedSpotId) || window.ADSPOT_SPOTS[0];
   const dict = window.ADSPOT_I18N[currentLang].mapSection;
+  const photoUrl = s.photo || 'assets/photos/YUN-01.jpg';
 
   document.getElementById('insp-badge').textContent = `${s.id} · ${s.formatLabel[currentLang]}`;
   document.getElementById('insp-traffic-pill').innerHTML = `${SVG_ICONS.eyePulse}<span>${formatNum(s.dailyTraffic)} ${dict.trafficBadge}</span>`;
@@ -1274,49 +1384,40 @@ function renderInspectorCard() {
   document.getElementById('insp-owner').textContent = s.owner;
   document.getElementById('insp-note').innerHTML = `${s.sensitiveZone ? SVG_ICONS.warnTriangle : SVG_ICONS.checkCircle}<span>${s.sensitiveNote[currentLang]}</span>`;
 
-  // Render Realistic Street-Level Visual Billboard Preview (#insp-visual-preview)
+  const addrThumb = document.getElementById('insp-address-thumb');
+  if (addrThumb) {
+    addrThumb.src = photoUrl;
+    addrThumb.alt = s.title[currentLang];
+  }
+
+  // Render Real Photorealistic Street Billboard / LED Photo (#insp-visual-preview)
   const previewBox = document.getElementById('insp-visual-preview');
   if (previewBox) {
-    const skyBg = streetPreviewNightMode
-      ? 'linear-gradient(180deg, #0F1E2E 0%, #1B3249 70%, #243B53 100%)'
-      : 'linear-gradient(180deg, #284B63 0%, #3E6B89 65%, #D4B895 100%)';
-    const boardGlow = s.format === 'led'
-      ? '0 0 22px rgba(212,184,149,0.65)'
-      : '0 8px 18px rgba(15,30,46,0.45)';
     const formatTag = s.formatLabel[currentLang].toUpperCase();
+    const imgFilter = streetPreviewNightMode ? 'brightness(0.72) contrast(1.22) saturate(1.15)' : 'brightness(1) contrast(1.02)';
 
-    previewBox.style.background = skyBg;
     previewBox.innerHTML = `
-      <div class="p-3.5 space-y-2.5">
-        <div class="flex items-center justify-between text-[10px] font-bold">
-          <span class="px-2 py-0.5 rounded-full bg-[#1B3249]/85 text-[#D4B895] border border-[#D4B895]/40">
+      <img src="${photoUrl}" alt="${s.title[currentLang]}" style="filter:${imgFilter};" class="w-full h-full object-cover transition-all duration-500" />
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1B3249]/95 via-[#1B3249]/20 to-[#1B3249]/40 p-3.5 flex flex-col justify-between">
+        <div class="flex flex-wrap items-center justify-between gap-1.5 text-[10px] font-bold">
+          <span class="px-2.5 py-0.5 rounded-full bg-[#1B3249]/90 text-[#D4B895] border border-[#D4B895]/40">
             ${dict.streetViewBadge || 'STREET VIEW'} · ${formatTag}
           </span>
-          <button onclick="toggleStreetPreviewTime()" class="px-2.5 py-0.5 rounded-full bg-[#FBF9F5]/90 text-[#1B3249] hover:bg-[#FBF9F5] transition-all">
-            ${streetPreviewNightMode ? (dict.dayModeBtn || '☀ Switch to Day View') : (dict.nightModeBtn || '☾ Switch to Night LED View')}
+          <button type="button" onclick="toggleStreetPreviewTime()" class="px-2.5 py-0.5 rounded-full bg-[#FBF9F5]/95 text-[#1B3249] hover:bg-white transition-all cursor-pointer">
+            ${streetPreviewNightMode ? (dict.dayModeBtn || '☀ Day View') : (dict.nightModeBtn || '☾ Night LED View')}
           </button>
         </div>
 
-        <!-- Realistic Billboard Structure Mockup on the Street -->
-        <div class="flex flex-col items-center pt-1">
-          <div class="w-full max-w-[290px] rounded-lg bg-[#FBF9F5] text-[#1B3249] p-2.5 border-4 border-[#1B3249]" style="box-shadow:${boardGlow};">
-            <div class="flex items-center justify-between text-[9px] font-extrabold text-[#284B63] uppercase tracking-wider">
-              <span>${s.districtLabel[currentLang]} · ${s.dimensions}</span>
-              <span>GPS: ${s.lat ? s.lat.toFixed(3) : '41.311'}°N</span>
+        <div class="flex items-end justify-between gap-2">
+          <div>
+            <div class="text-[10px] font-extrabold text-[#D4B895] uppercase tracking-wider">
+              ${s.districtLabel[currentLang]} · ${s.dimensions} · GPS ${s.lat ? s.lat.toFixed(3) : '41.311'}°N
             </div>
-            <div class="text-xs font-extrabold text-[#1B3249] truncate mt-0.5">${s.title[currentLang]}</div>
-            <div class="mt-1 flex items-center justify-between text-[10px] bg-[#EBE2D3] px-2 py-1 rounded font-bold text-[#284B63]">
-              <span>${dict.yourAdHere || 'YOUR BRAND AD HERE'}</span>
-              <span>${formatNum(s.dailyTraffic)} ${dict.viewsDayShort || 'views/day'}</span>
-            </div>
+            <div class="text-sm font-extrabold text-[#FBF9F5] leading-snug">${s.title[currentLang]}</div>
           </div>
-          <!-- Steel Pillar & Roadway -->
-          <div class="w-3 h-5 bg-[#8C7355] border-x border-[#1B3249]"></div>
-          <div class="w-full h-3 rounded-full bg-[#1B3249]/90 border-t border-[#D4B895]/40 flex items-center justify-around px-6">
-            <span class="w-4 h-0.5 bg-[#D4B895]"></span>
-            <span class="w-4 h-0.5 bg-[#D4B895]"></span>
-            <span class="w-4 h-0.5 bg-[#D4B895]"></span>
-          </div>
+          <span class="px-2.5 py-1 rounded-lg bg-[#284B63]/95 text-[#FBF9F5] text-[10px] font-extrabold shrink-0 border border-[#D4B895]/40">
+            ${formatNum(s.dailyTraffic)} ${dict.viewsDayShort || 'views/day'}
+          </span>
         </div>
       </div>
     `;
@@ -1376,14 +1477,14 @@ function evaluateLiveSloganText() {
   const s = window.ADSPOT_SPOTS.find(x => x.id === selectedSpotId) || window.ADSPOT_SPOTS[0];
 
   const hasRestrictedWords = /(energy|energetik|энергетик|casino|kazino|bet|stavka|alkogol|alcohol|beer|pivo|fast food|burger)/i.test(lower);
-  const hasStraightApostrophe = /\b[ogOG]'/.test(raw);
+  const hasStraightApostrophe = /[oOgG][\u2018\u2019\u02bb'`]/.test(raw);
 
   let score = 96;
   const checks = [];
 
   if (wordCount <= 7) {
     const okMsg = {
-      uz: `Tezkor o‘qilish: ${wordCount} ta so‘z (60 km/s uchun ideal ≤ 7 so‘z)`,
+      uz: `Tezkor öqiliş: ${wordCount} ta söz (60 km/s uçun ideal ≤ 7 söz)`,
       ru: `Читаемость на 60 км/ч: ${wordCount} слов (Норма ≤ 7 слов)`,
       en: `Highway Readability: ${wordCount} words (Optimal ≤ 7 words for 60 km/h)`
     };
@@ -1391,7 +1492,7 @@ function evaluateLiveSloganText() {
   } else {
     score -= 26;
     const warnMsg = {
-      uz: `Matn uzun: ${wordCount} ta so‘z (60 km/s tezlikda ≤ 7 so‘z o‘qiladi)`,
+      uz: `Matn uzun: ${wordCount} ta söz (60 km/s tezlikda ≤ 7 söz öqiladi)`,
       ru: `Слишком длинно: ${wordCount} слов (Рекомендуется ≤ 7 слов)`,
       en: `Too Long: ${wordCount} words (Drivers at 60 km/h only read ≤ 7 words)`
     };
@@ -1401,7 +1502,7 @@ function evaluateLiveSloganText() {
   if (hasRestrictedWords && s.sensitiveZone) {
     score -= 40;
     const zWarn = {
-      uz: `200m Maktab/Masjid cheklovi (${s.id}): CHIL-02 ga o‘tkazing`,
+      uz: `200m Maktab/Masjid çeklovi (${s.id}): CHIL-02 ga ötkazing`,
       ru: `Конфликт зоны 200м (${s.id}): Перенесите на CHIL-02`,
       en: `200m Sensitive Zone Conflict on ${s.id}: Reroute to CHIL-02`
     };
@@ -1418,15 +1519,15 @@ function evaluateLiveSloganText() {
   if (hasStraightApostrophe) {
     score -= 14;
     const tWarn = {
-      uz: `O‘zbek imlosi: to‘g‘ri O‘ / G‘ apostrofini qo‘llang`,
-      ru: `Узбекская орфография: используйте правильный апостроф O‘ / G‘`,
-      en: `Uzbek Typography Tip: Replace straight apostrophe (') with O‘ / G‘`
+      uz: `Eski alifbo aniqlandi: O‘ → Ö, G‘ → Ğ, Sh → Ş, Ch → Ç harflarini qöllang`,
+      ru: `Устаревшая орфография: замените O‘ → Ö, G‘ → Ğ, Sh → Ş, Ch → Ç (новый узбекский алфавит)`,
+      en: `Old Uzbek spelling detected: replace O‘ → Ö, G‘ → Ğ, Sh → Ş, Ch → Ç (reformed alphabet)`
     };
     checks.push({ ok: false, text: tWarn[currentLang] });
   } else {
     const tOk = {
-      uz: `O‘RQ-776 "Reklama to‘g‘risida"gi Qonun imlosiga mos`,
-      ru: `Соответствует нормам Закона «О рекламе» (ЗРУ-776)`,
+      uz: `ÖRQ-776 "Reklama töğrisida"gi Qonun imlosiga mos`,
+      ru: `Соответствует новому узбекскому алфавиту (Ö, Ğ, Ş, Ç) и ЗРУ-776`,
       en: `Uzbek Law "On Advertising" (ZRU-776) Typography Ready`
     };
     checks.push({ ok: true, text: tOk[currentLang] });
@@ -1437,19 +1538,19 @@ function evaluateLiveSloganText() {
   document.getElementById('adv-score').textContent = `${scoreLbl}: ${score} / 100`;
 
   const headByLang = {
-    uz: `Jonli shior tahlili: "${raw}"`,
+    uz: `Jonli şior tahlili: "${raw}"`,
     ru: `Живой анализ слогана: «${raw}»`,
     en: `Live Slogan Scan: "${raw}"`
   };
   document.getElementById('adv-headline').textContent = headByLang[currentLang];
 
   const quoteOk = {
-    uz: `✓ Ajoyib shior! "${raw}" (${wordCount} so‘z) 60 km/s tezlikda aniq o‘qiladi va ${s.id} (${s.title.uz}) nuqtasiga 100% mos.`,
+    uz: `✓ Ajoyib şior! "${raw}" (${wordCount} söz) 60 km/s tezlikda aniq öqiladi va ${s.id} (${s.title.uz}) nuqtasiga 100% mos.`,
     ru: `✓ Отличный слоган! «${raw}» (${wordCount} слов) легко читается на скорости 60 км/ч и готов к размещению на ${s.id} (${s.title.ru}).`,
     en: `✓ Great slogan! "${raw}" (${wordCount} words) is clear, readable at 60 km/h, and ready for ${s.id} (${s.title.en}).`
   };
   const quoteWarn = {
-    uz: `⚠ Tavsiya: Matnni ≤ 7 so‘zgacha qisqartiring yoki CHIL-02 (Bunyodkor LED) ekraniga o‘tkazing.`,
+    uz: `⚠ Tavsiya: Matnni ≤ 7 sözgaça qisqartiring yoki CHIL-02 (Bunyodkor LED) ekraniga ötkazing.`,
     ru: `⚠ Рекомендация: Сократите текст до ≤ 7 слов или переключитесь на экран CHIL-02 (Бунёдкор).`,
     en: `⚠ Optimization needed: Please shorten to ≤ 7 words or switch to CHIL-02 (Bunyodkor Highway) for maximum approval speed.`
   };
@@ -1696,7 +1797,7 @@ function openOwnerChatForCurrentSpot() {
   const list = matching.messages[currentLang];
   const priceStr = formatNum(s.monthlyPriceUZS) + ' UZS';
   const introByLang = {
-    uz: `Assalomu alaykum! Siz xaritada ${s.id} (${s.title.uz}, ${priceStr}/oy) nuqtasini tanladingiz. Ushbu joy bo‘yicha qanday savolingiz bor?`,
+    uz: `Assalomu alaykum! Siz xaritada ${s.id} (${s.title.uz}, ${priceStr}/oy) nuqtasini tanladingiz. Uşbu joy böyiça qanday savolingiz bor?`,
     ru: `Здравствуйте! Вы выбрали на карте точку ${s.id} (${s.title.ru}, ${priceStr}/мес). Какой вопрос у вас по этой конструкции?`,
     en: `Hello! You selected spot ${s.id} (${s.title.en}, ${priceStr}/mo) on the map. What would you like to know about availability, printing, or discounts?`
   };
@@ -1734,11 +1835,11 @@ function renderChatMessages() {
   if (chipsEl) {
     const chipsByLang = {
       uz: [
-        'Eng arzon joy qancha?',
-        'Chilonzorda qanday ekranlar bor?',
-        'Banner o‘lchami va chop etish narxi?',
+        'Eng arzon joy qança?',
+        'Çilonzorda qanday ekranlar bor?',
+        'Banner ölçami va çop etiş narxi?',
         'Maktab yonida qanday qoida bor?',
-        'Chegirma va Payme/Didox to‘lov?'
+        'Çegirma va Payme/Didox tölov?'
       ],
       ru: [
         'Какая самая низкая цена?',
@@ -1785,7 +1886,10 @@ function sendQuickChatQuestion(qText) {
 
 /* Context-Aware Smart Question Answering Engine (UZ / RU / EN) */
 function generateSmartChatReply(userText, threadId, lang) {
-  const q = userText.toLowerCase();
+  // Normalize the reformed Uzbek alphabet (Ö, Ğ, Ş, Ç) + apostrophe variants so old & new spellings both match
+  const q = userText.toLowerCase()
+    .replace(/ö/g, 'o‘').replace(/ğ/g, 'g‘').replace(/ş/g, 'sh').replace(/ç/g, 'ch')
+    .replace(/([og])[\u2019\u02bb'`]/g, '$1‘');
   const thread = CHAT_THREADS.find(t => t.id === threadId) || CHAT_THREADS[0];
   const s = window.ADSPOT_SPOTS.find(x => x.id === selectedSpotId) || window.ADSPOT_SPOTS[0];
 
@@ -1793,8 +1897,8 @@ function generateSmartChatReply(userText, threadId, lang) {
   if (/(price|cost|how much|cheap|budget|expensive|uzs|million|narx|qancha|arzon|byudjet|pul|цена|сколько|стоит|дешев|бюджет)/i.test(q)) {
     const replies = {
       uz: `Narxlarimiz formatga qarab farqlanadi:
-• Eng hamyonbop: YAK-01 (Shota Rustaveli bekati) — 2,400,000 UZS/oy (52K oqim) va YUN-02 (Mega Planet bekati) — 2,900,000 UZS/oy (64K oqim).
-• Standart 6m×3m Bilbordlar: CHIL-01 (Chilonzor) — 4,800,000 UZS/oy, YUN-01 (Amir Temur) — 5,200,000 UZS/oy, MIR-01 — 6,100,000 UZS/oy.
+• Eng hamyonbop: YAK-01 (Şota Rustaveli bekati) — 2,400,000 UZS/oy (52K oqim) va YUN-02 (Mega Planet bekati) — 2,900,000 UZS/oy (64K oqim).
+• Standart 6m×3m Bilbordlar: CHIL-01 (Çilonzor) — 4,800,000 UZS/oy, YUN-01 (Amir Temur) — 5,200,000 UZS/oy, MIR-01 — 6,100,000 UZS/oy.
 • Premium 4K LED Ekranlar: CHIL-02 (Bunyodkor) — 7,500,000 UZS/oy (112K oqim).
 Hozir tanlangan ${s.id} nuqtasi narxi: ${formatNum(s.monthlyPriceUZS)} UZS/oy.`,
       ru: `Актуальные цены по Ташкенту:
@@ -1814,11 +1918,11 @@ Your currently selected spot (${s.id}) is ${formatNum(s.monthlyPriceUZS)} UZS/mo
   // 2. Districts / Locations (Chilanzar, Yunusabad, Mirzo Ulugbek, Yakkasaray, etc.)
   if (/(chilanzar|chilonzor|чиланзар|yunusabad|yunusobod|юнусабад|mirzo|мирзо|yakkasar|яккасар|district|where|location|street|tuman|qayer|ko‘cha|район|где|улиц)/i.test(q)) {
     const replies = {
-      uz: `Tumanlar bo‘yicha tasdiqlangan nuqtalarimiz:
-• Chilonzor: CHIL-01 (Qatortol Savdo Markazi, 4.8M UZS, 78K oqim) va CHIL-02 (Bunyodkor 4K LED, 7.5M UZS, 112K oqim).
+      uz: `Tumanlar böyiça tasdiqlangan nuqtalarimiz:
+• Çilonzor: CHIL-01 (Qatortol Savdo Markazi, 4.8M UZS, 78K oqim) va CHIL-02 (Bunyodkor 4K LED, 7.5M UZS, 112K oqim).
 • Yunusobod: YUN-01 (Amir Temur Xiyoboni, 5.2M UZS, 84K oqim) va YUN-02 (Mega Planet bekati, 2.9M UZS, 64K oqim).
-• Mirzo Ulug‘bek: MIR-01 (Buyuk Ipak Yo‘li metro, 6.1M UZS, 91K oqim).
-• Yakkasaroy: YAK-01 (Shota Rustaveli BRT bekati, 2.4M UZS, 52K oqim).`,
+• Mirzo Uluğbek: MIR-01 (Buyuk Ipak Yöli metro, 6.1M UZS, 91K oqim).
+• Yakkasaroy: YAK-01 (Şota Rustaveli BRT bekati, 2.4M UZS, 52K oqim).`,
       ru: `Проверенные точки по районам Ташкента:
 • Чиланзар: CHIL-01 (ТЦ Катартал, 4.8M UZS, 78К поток) и CHIL-02 (Бунёдкор 4K LED, 7.5M UZS, 112К поток).
 • Юнусабад: YUN-01 (Сквер Амира Темура, 5.2M UZS, 84К поток) и YUN-02 (Mega Planet, 2.9M UZS, 64К поток).
@@ -1836,10 +1940,10 @@ Your currently selected spot (${s.id}) is ${formatNum(s.monthlyPriceUZS)} UZS/mo
   // 3. Dimensions / Size / Printing / Format / LED Video Specs
   if (/(size|dimension|print|banner|format|led|video|pixel|resolution|vinyl|o‘lcham|razmer|chop|pechat|размер|печать|формат|видео|монтаж)/i.test(q)) {
     const replies = {
-      uz: `Texnik o‘lchamlar va chop etish shartlari:
-• Standart Bilbordlar (YUN-01, CHIL-01, MIR-01): 6.0m × 3.0m (Vinil banner 510g, 300 DPI). Chop etish va o‘rnatish 24 soat ichida.
-• 4K LED Ekranlar (CHIL-02): 8.0m × 4.0m (1920×1080 px, MP4 yoki PNG, 10 soniyalik rolik har 60 soniyada chiqadi). Efirga chiqish 15 daqiqada!
-• Avtobus bekatlari (YUN-02, YAK-01): 1.2m × 1.8m (CityLight ichki yoritish bilan).`,
+      uz: `Texnik ölçamlar va çop etiş şartlari:
+• Standart Bilbordlar (YUN-01, CHIL-01, MIR-01): 6.0m × 3.0m (Vinil banner 510g, 300 DPI). Çop etiş va örnatiş 24 soat içida.
+• 4K LED Ekranlar (CHIL-02): 8.0m × 4.0m (1920×1080 px, MP4 yoki PNG, 10 soniyalik rolik har 60 soniyada çiqadi). Efirga çiqiş 15 daqiqada!
+• Avtobus bekatlari (YUN-02, YAK-01): 1.2m × 1.8m (CityLight içki yoritiş bilan).`,
       ru: `Технические размеры и условия печати:
 • Билборды (YUN-01, CHIL-01, MIR-01): 6.0м × 3.0м (винил 510г, 300 DPI). Печать и монтаж за 24 часа.
 • 4K LED Экраны (CHIL-02): 8.0м × 4.0м (1920×1080 px, MP4 или PNG, ролик 10 сек каждые 60 сек). Запуск в эфир за 15 минут!
@@ -1855,16 +1959,16 @@ Your currently selected spot (${s.id}) is ${formatNum(s.monthlyPriceUZS)} UZS/mo
   // 4. Law / School Zones / Mosque Zones / Uzbek Language Compliance
   if (/(school|mosque|law|legal|rule|language|uzbek|fine|reject|maktab|masjid|qonun|til|imlo|школа|мечеть|закон|язык|штраф)/i.test(q)) {
     const replies = {
-      uz: `O‘zbekiston Respublikasi "Reklama to‘g‘risida"gi Qonuni (O‘RQ-776) bo‘yicha 3 ta asosiy qoida:
-1. Davlat tili: Reklama matni davlat tilida (O‘zbek lotin alifbosida, to‘g‘ri O‘ va G‘ harflari bilan) bo‘lishi shart.
-2. 200m Maktab va Masjid hududi: YUN-01 va MIR-01 maktab/masjidga yaqin bo‘lgani uchun energetik ichimlik va zararli mahsulotlar taqiqlanadi (ularni CHIL-02 Bunyodkor LED ekraniga joylashtiramiz).
-3. Tezkor o‘qilish: Haydovchilar uchun 7 tadan ko‘p bo‘lmagan so‘z tavsiya etiladi.`,
+      uz: `Özbekiston Respublikasi "Reklama töğrisida"gi Qonuni (ÖRQ-776) böyiça 3 ta asosiy qoida:
+1. Davlat tili: Reklama matni davlat tilida (Özbek lotin alifbosida, yangi Ö, Ğ, Ş, Ç harflari bilan) bölişi şart.
+2. 200m Maktab va Masjid hududi: YUN-01 va MIR-01 maktab/masjidga yaqin bölgani uçun energetik içimlik va zararli mahsulotlar taqiqlanadi (ularni CHIL-02 Bunyodkor LED ekraniga joylaştiramiz).
+3. Tezkor öqiliş: Haydovçilar uçun 7 tadan köp bölmagan söz tavsiya etiladi.`,
       ru: `По Закону РУз «О рекламе» (ЗРУ-776) действуют 3 ключевых правила:
-1. Государственный язык: Текст на узбекском языке обязателен (с правильными апострофами O‘ и G‘).
+1. Государственный язык: Текст на узбекском языке обязателен (по новому алфавиту: Ö, Ğ, Ş, Ç).
 2. Зона 200м у школ и мечетей: На точках YUN-01 и MIR-01 запрещены энергетики и фастфуд (для них идеально подходит CHIL-02 на Бунёдкоре).
 3. Читаемость: Не более 7 слов для скорости потока 60 км/ч.`,
       en: `Under Uzbekistan's Law "On Advertising" (ZRU-776), our Pre-Check verifies 3 rules:
-1. State Language: Advertisements must include accurate Uzbek Latin text (proper O‘ and G‘ apostrophes).
+1. State Language: Advertisements must include accurate Uzbek Latin text (reformed alphabet letters Ö, Ğ, Ş, Ç).
 2. 200m School & Mosque Buffer: Spots YUN-01 and MIR-01 are near schools/mosques, so energy drinks or restricted categories are automatically rerouted to CHIL-02 (Bunyodkor Highway).
 3. Highway Readability: Maximum 7 words so drivers at 60 km/h read your message in 2.5 seconds.`
     };
@@ -1874,11 +1978,11 @@ Your currently selected spot (${s.id}) is ${formatNum(s.monthlyPriceUZS)} UZS/mo
   // 5. Discounts / Payment / Payme / Click / Didox / Contract
   if (/(discount|pay|payme|click|didox|contract|invoice|escrow|chegirma|to‘lov|shartnoma|скидк|оплат|договор|счет)/i.test(q)) {
     const replies = {
-      uz: `To‘lov va chegirmalar:
+      uz: `Tölov va çegirmalar:
 • 14 kunlik Sprint: oylik narxning 55% qismi.
-• 60 kun (2 oy): -10% rasmiy chegirma.
-• 90 kun (Choraklik): -18% maksimal chegirma!
-To‘lovlar Payme, Click Up yoki korporativ mijozlar uchun Didox E-Shartnoma (ЭДО) orqali 100% xavfsiz amalga oshiriladi.`,
+• 60 kun (2 oy): -10% rasmiy çegirma.
+• 90 kun (Çoraklik): -18% maksimal çegirma!
+Tölovlar Payme, Click Up yoki korporativ mijozlar uçun Didox E-Şartnoma (ЭДО) orqali 100% xavfsiz amalga oşiriladi.`,
       ru: `Условия оплаты и скидки:
 • Спринт 14 дней: 55% от месячного тарифа.
 • 60 дней (2 месяца): скидка -10%.
@@ -1895,11 +1999,11 @@ You can pay securely via Payme, Click Up, or official B2B Didox E-Invoice with e
 
   // 6. Tailored contextual fallback referencing the user's exact question & selected spot
   const fallbacks = {
-    uz: `Savolingiz uchun rahmat ("${userText}")! Hozir xaritada ${s.id} · ${s.title.uz} (${s.street.uz}) nuqtasi tanlangan:
-• Kunlik oqim: ${formatNum(s.dailyTraffic)} yo‘lovchi/kun
+    uz: `Savolingiz uçun rahmat ("${userText}")! Hozir xaritada ${s.id} · ${s.title.uz} (${s.street.uz}) nuqtasi tanlangan:
+• Kunlik oqim: ${formatNum(s.dailyTraffic)} yölovçi/kun
 • Oylik narx: ${formatNum(s.monthlyPriceUZS)} UZS (${s.dimensions})
 • Egasi: ${s.owner}
-Ushbu joyni band qilish uchun yuqoridagi "To‘g‘ridan-to‘g‘ri band qilish" tugmasini bosing yoki aniq byudjetingizni yozing!`,
+Uşbu joyni band qiliş uçun yuqoridagi "Töğridan-töğri band qiliş" tugmasini bosing yoki aniq byudjetingizni yozing!`,
     ru: `Спасибо за ваш вопрос («${userText}»)! Сейчас выбрана точка ${s.id} · ${s.title.ru} (${s.street.ru}):
 • Суточный поток: ${formatNum(s.dailyTraffic)} авто и пешеходов
 • Цена: ${formatNum(s.monthlyPriceUZS)} UZS/мес (${s.dimensions})
@@ -2005,7 +2109,7 @@ function requestOwnerPayout() {
   if (banner) {
     const txId = Math.floor(10000 + Math.random() * 90000);
     const msgByLang = {
-      uz: `✓ Didox E-Hisobvaraq to‘lovi #DDX-${txId} yuborildi! Mablag‘ (38,400,000 UZS) 2 bank soati ichida hisob raqamingizga tushadi.`,
+      uz: `✓ Didox E-Hisobvaraq tölovi #DDX-${txId} yuborildi! Mablağ (38,400,000 UZS) 2 bank soati içida hisob raqamingizga tuşadi.`,
       ru: `✓ Выплата по ЭДО Didox #DDX-${txId} отправлена! Средства (38,400,000 UZS) поступят на ваш расчетный счет в течение 2 банковских часов.`,
       en: `✓ Didox E-Invoice Payout #DDX-${txId} initiated! Funds (38,400,000 UZS) will arrive on your corporate settlement account within 2 banking hours.`
     };
@@ -2111,11 +2215,15 @@ function renderPortalView() {
           <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
             ${window.ADSPOT_SPOTS.map(s => {
               const isMaint = s.ownerStatus === 'maintenance';
+              const spotThumb = s.photo || 'assets/photos/YUN-01.jpg';
               return `
                 <div class="p-3.5 rounded-xl bg-[#F3EDE2] border border-[#C8AD8D]/50 flex flex-wrap items-center justify-between gap-2 text-xs">
-                  <div>
-                    <div class="font-extrabold text-[#1B3249]">${s.id} · ${s.title[currentLang]}</div>
-                    <div class="text-[#5A6B7C] text-[11px]">${formatNum(s.monthlyPriceUZS)} ${mapDict.perMonth} · ${formatNum(s.dailyTraffic)} ${mapDict.viewsDayShort || 'views/day'}</div>
+                  <div class="flex items-center gap-3">
+                    <img src="${spotThumb}" alt="${s.id}" class="w-12 h-12 rounded-xl object-cover border border-[#C8AD8D] shrink-0" />
+                    <div>
+                      <div class="font-extrabold text-[#1B3249]">${s.id} · ${s.title[currentLang]}</div>
+                      <div class="text-[#5A6B7C] text-[11px]">${s.street[currentLang]} · ${formatNum(s.monthlyPriceUZS)} ${mapDict.perMonth}</div>
+                    </div>
                   </div>
                   <div class="flex items-center gap-1.5">
                     <button onclick="adjustOwnerSpotPrice('${s.id}', -200000)" class="px-2 py-1 rounded bg-[#FBF9F5] border border-[#C8AD8D] font-bold text-[#1B3249] hover:bg-[#EBE2D3]">-200K</button>
